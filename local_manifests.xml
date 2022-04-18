@@ -3,7 +3,10 @@
 	
    <remote  name="hsx"
            fetch="https://github.com/hsx02" />        	
-           
+ 
+   <remote  name="pxl"
+           fetch="https://github.com/PixelExperience" />
+         
   <!-- Replacement -->
   <remove-project name="LineageOS/android_packages_resources_devicesettings"/>
    <project path="packages/resources/devicesettings" name="packages_resources_devicesettings" remote="hsx" revision="lineage-18.1"/>
