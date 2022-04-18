@@ -15,11 +15,11 @@
    <project path="hardware/qcom-caf/wlan" name="hardware_qcom-caf_wlan" remote="hsx" revision="S"/>	
    <project path="external/ant-wireless/antradio-library" name="external_ant-wireless_antradio-library" remote="pxl" revision="twelve"/>
  
-  <remove-project name="LineageOS/android_hardware_qcom-caf_msm8996_display"/>
+  <remove-project name="LineageOS/android_hardware_qcom_msm8996_display"/>
    <project path="hardware/qcom-caf/msm8996/display" name="tree-r-blobs" remote="hsx" revision="display"/>
-  <remove-project name="LineageOS/android_hardware_qcom-caf_msm8996_media"/>
+  <remove-project name="LineageOS/android_hardware_qcom_msm8996_media"/>
    <project path="hardware/qcom-caf/msm8996/display" name="tree-r-blobs" remote="hsx" revision="media"/>
-  <remove-project name="LineageOS/android_hardware_qcom-caf_msm8996_audio"/>
+  <remove-project name="LineageOS/android_hardware_qcom_msm8996_audio"/>
    <project path="hardware/qcom-caf/msm8996/display" name="tree-r-blobs" remote="hsx" revision="audio"/>
    
    
