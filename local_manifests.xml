@@ -14,9 +14,7 @@
   <remove-project name="android_hardware_qcom_wlan"/>
    <project path="hardware/qcom-caf/wlan" name="audio_display_media_wlan" remote="hsx" revision="hardware/qcom-caf/wlan"/>	
    <project path="external/ant-wireless/antradio-library" name="external_ant-wireless_antradio-library" remote="pxl" revision="twelve"/>
-   <remove-project name="android_frameworks_base"/>
-   <project path="frameworks/base" name="android_frameworks_base" remote="hsx" revision="lineage-19.1"/>
-
+ 
   <project path="hardware/qcom-caf/msm8996/display" name="tree-r-blobs" remote="hsx" revision="display"/>
   <project path="hardware/qcom-caf/msm8996/media" name="tree-r-blobs" remote="hsx" revision="media"/>
   <project path="hardware/qcom-caf/msm8996/audio" name="tree-r-blobs" remote="hsx" revision="audio"/>
