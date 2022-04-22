@@ -6,6 +6,9 @@
  
    <remote  name="pxl"
            fetch="https://github.com/PixelExperience" />
+
+   <remote  name="flos"
+           fetch="https://github.com/ForkLineageOS" />
          
   <!-- Replacement -->
 
@@ -24,7 +27,7 @@
    <project path="hardware/qcom-caf/msm8996/audio" name="tree-r-blobs" remote="hsx" revision="audio"/>
    <project path="device/qcom/sepolicy-legacy-um" name="device_qcom_sepolicy-legacy-um" remote="pxl" revision="twelve"/>
   <remove-project name="packages_apps_Bluetooth"/>
-   <project path="packages/apps/Bluetooth" name="packages_apps_Bluetooth" remote="pxl" revision="twelve"/>
+   <project path="packages/apps/Bluetooth" name="android_packages_apps_Bluetooth" remote="flos" revision="lineage-19.1"/>
 
   <project path="device/xiaomi/mi439" name="tree-r-blobs" remote="hsx" revision="spark"/>
   <project path="device/xiaomi/sdm439-common" name="tree-r-blobs" remote="hsx" revision="dct"/>
