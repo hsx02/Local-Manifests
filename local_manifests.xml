@@ -12,10 +12,10 @@
          
   <!-- Replacement -->
 
-  <remove-project name="android_packages_resources_devicesettings"/>
+  <remove-project name="LineageOS/android_packages_resources_devicesettings"/>
    <project path="packages/resources/devicesettings" name="packages_resources_devicesettings" remote="hsx" revision="lineage-18.1"/>
    <project path="packages/apps/FMRadio" name="packages_apps_FMRadio" remote="hsx" revision="lineage-18.1"/>
-  <remove-project name="android_hardware_qcom_wlan"/>
+  <remove-project name="LineageOS/android_hardware_qcom_wlan"/>
    <project path="hardware/qcom-caf/wlan" name="audio_display_media_wlan" remote="hsx" revision="hardware/qcom-caf/wlan"/>	
    <project path="external/ant-wireless/antradio-library" name="external_ant-wireless_antradio-library" remote="pxl" revision="twelve"/>
  
@@ -25,7 +25,6 @@
    <project path="hardware/qcom-caf/msm8996/media" name="tree-r-blobs" remote="hsx" revision="media"/>
   <remove-project name="LineageOS/android_hardware_qcom_audio"/>
    <project path="hardware/qcom-caf/msm8996/audio" name="tree-r-blobs" remote="hsx" revision="audio"/>
-   <project path="device/qcom/sepolicy-legacy-um" name="device_qcom_sepolicy-legacy-um" remote="pxl" revision="twelve"/>
 
   <project path="device/xiaomi/mi439" name="device_xiaomi_mi439" remote="hsx" revision="awaken-12.1"/>
   <project path="device/xiaomi/sdm439-common" name="device_xiaomi_sdm439-common" remote="hsx" revision="12.1-unified-r"/>
