@@ -12,6 +12,8 @@
          
   <!-- Replacement -->
 
+  <remove-project name="android_vendor_awaken"/>
+   <project path="vendor/awaken" name="android_vendor_awaken" remote="hsx" revision="12.1"/>
   <remove-project name="LineageOS/android_packages_resources_devicesettings"/>
    <project path="packages/resources/devicesettings" name="packages_resources_devicesettings" remote="hsx" revision="lineage-18.1"/>
    <project path="packages/apps/FMRadio" name="packages_apps_FMRadio" remote="hsx" revision="lineage-18.1"/>
