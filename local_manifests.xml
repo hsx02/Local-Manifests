@@ -3,10 +3,13 @@
 	
    <remote  name="hsx"
            fetch="https://github.com/hsx02" />        	
-    
+   <remote  name="los"
+           fetch="https://github.com/LineageOS" />        	
+       
   <project path="device/google/bonito" name="android_device_google_bonito" remote="hsx" revision="awk"/>
   <project path="vendor/google"  name="proprietary_vendor_google" remote="hsx" revision="lineage-19.1"/>
   <project path="kernel/google/msm-4.9" name="android_kernel_google_msm-4.9" remote="hsx" revision="lineage-19.1"  clone-depth="1"/>
+  <project name="android_packages_apps_ElmyraService" path="packages/apps/ElmyraService" remote="los" revision="lineage-19.1" />
  <remove-project name="android_vendor_awaken"/>
   <project path="vendor/awaken" name="android_vendor_awaken" remote="hsx" revision="12.1"/> 
 </manifest>
