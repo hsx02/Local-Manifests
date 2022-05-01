@@ -4,7 +4,7 @@
    <remote  name="hsx"
            fetch="https://github.com/hsx02" />        	
     
-  <project path="device/google/bonito" name="android_device_google_bonito" remote="hsx" revision="lineage-19.1"/>
+  <project path="device/google/bonito" name="android_device_google_bonito" remote="hsx" revision="awk"/>
   <project path="vendor/google"  name="proprietary_vendor_google" remote="hsx" revision="lineage-19.1"/>
   <project path="kernel/google/msm-4.9" name="android_kernel_google_msm-4.9" remote="hsx" revision="lineage-19.1"  clone-depth="1"/>  
 </manifest>
