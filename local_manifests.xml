@@ -3,29 +3,8 @@
 	
    <remote  name="hsx"
            fetch="https://github.com/hsx02" />        	
- 
-   <remote  name="pxl"
-           fetch="https://github.com/PixelExperience" />
-         
-  <!-- Replacement -->
-  <remove-project name="LineageOS/android_packages_resources_devicesettings"/>
-   <project path="packages/resources/devicesettings" name="packages_resources_devicesettings" remote="hsx" revision="lineage-18.1"/>
-   <project path="packages/apps/FMRadio" name="packages_apps_FMRadio" remote="hsx" revision="lineage-18.1"/>
-  <remove-project name="LineageOS/android_hardware_qcom_wlan"/>
-   <project path="hardware/qcom-caf/wlan" name="audio_display_media_wlan" remote="hsx" revision="hardware/qcom-caf/wlan"/>	
-   <project path="external/ant-wireless/antradio-library" name="external_ant-wireless_antradio-library" remote="pxl" revision="twelve"/>
-  
-  <remove-project name="LineageOS/android_hardware_qcom_display"/>
-   <project path="hardware/qcom-caf/msm8996/display" name="tree-r-blobs" remote="hsx" revision="display"/>
-  <remove-project name="LineageOS/android_hardware_qcom_media"/>
-   <project path="hardware/qcom-caf/msm8996/media" name="tree-r-blobs" remote="hsx" revision="media"/>
-  <remove-project name="LineageOS/android_hardware_qcom_audio"/>
-   <project path="hardware/qcom-caf/msm8996/audio" name="tree-r-blobs" remote="hsx" revision="audio"/>
-   
-   
-  <project path="device/xiaomi/mi439" name="tree-r-blobs" remote="hsx" revision="dt"/>
-  <project path="device/xiaomi/sdm439-common" name="tree-r-blobs" remote="hsx" revision="dct"/>
-  <project path="vendor/xiaomi/mi439"  name="tree-r-blobs" remote="hsx" revision="vt"/>
-  <project path="vendor/xiaomi/sdm439-common"  name="tree-r-blobs" remote="hsx" revision="vct"/>
-  <project path="kernel/xiaomi/sdm439" name="kernel_xiaomi_sdm439" remote="hsx" revision="a12/main"  clone-depth="1"/>  
+    
+  <project path="device/google/bonito" name="android_device_google_bonito" remote="hsx" revision="lineage-19.1"/>
+  <project path="vendor/google"  name="proprietary_vendor_google" remote="hsx" revision="lineage-19.1"/>
+  <project path="kernel/google/msm-4.9" name="android_kernel_google_msm-4.9" remote="hsx" revision="lineage-19.1"  clone-depth="1"/>  
 </manifest>
