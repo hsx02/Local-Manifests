@@ -11,5 +11,9 @@
   <project path="kernel/google/msm-4.9" name="android_kernel_google_msm-4.9" remote="hsx" revision="lineage-19.1"  clone-depth="1"/>
   <project name="android_packages_apps_ElmyraService" path="packages/apps/ElmyraService" remote="los" revision="lineage-19.1" />
  <remove-project name="android_vendor_awaken"/>
-  <project path="vendor/awaken" name="android_vendor_awaken" remote="hsx" revision="12.1"/> 
+  <project path="vendor/awaken" name="android_vendor_awaken" remote="hsx" revision="12.1"/>
+ <remove-project name="LineageOS/android_hardware_qcom_wlan"/>
+  <project path="hardware/qcom/wlan" name="android_hardware_qcom_wlan" remote="los" revision="lineage-19.1"/>
+ <remove-project name="LineageOS/android_hardware_qcom_wlan"/>
+  <project path="hardware/qcom-caf/wlan" name="android_hardware_qcom_wlan" remote="los" revision="lineage-19.1"/>
 </manifest>
