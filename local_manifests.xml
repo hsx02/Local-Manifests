@@ -11,28 +11,23 @@
            fetch="https://github.com/silont-project" />
                        
   <!-- Replacement -->
-  <remove-project name="LineageOS/android_packages_resources_devicesettings"/>
+  <remove-project name="packages_resources_devicesettings"/>
    <project path="packages/resources/devicesettings" name="packages_resources_devicesettings" remote="hsx" revision="lineage-18.1"/>
+  <remove-project name="packages_apps_FMRadio"/>
    <project path="packages/apps/FMRadio" name="packages_apps_FMRadio" remote="hsx" revision="lineage-18.1"/>
-  <remove-project name="LineageOS/android_hardware_qcom_wlan"/>
+  <remove-project name="hardware_qcom-caf_wlan"/>
    <project path="hardware/qcom-caf/wlan" name="audio_display_media_wlan" remote="hsx" revision="hardware/qcom-caf/wlan"/>	
-  <remove-project name="android_vendor_lineage"/>
-   <project path="vendor/lineage" name="android_vendor_lineage" remote="hsx" revision="lineage-19.1"/>	
    <project path="external/ant-wireless/antradio-library" name="external_ant-wireless_antradio-library" remote="pxl" revision="twelve"/>
   
-  <remove-project name="LineageOS/android_hardware_qcom_display"/>
    <project path="hardware/qcom-caf/msm8996/display" name="tree-r-blobs" remote="hsx" revision="display"/>
-  <remove-project name="LineageOS/android_hardware_qcom_media"/>
    <project path="hardware/qcom-caf/msm8996/media" name="tree-r-blobs" remote="hsx" revision="media"/>
-  <remove-project name="LineageOS/android_hardware_qcom_audio"/>
    <project path="hardware/qcom-caf/msm8996/audio" name="tree-r-blobs" remote="hsx" revision="audio"/>
    
    
-  <project path="device/xiaomi/mi439" name="tree-r-blobs" remote="hsx" revision="dt"/>
-  <project path="device/xiaomi/sdm439-common" name="tree-r-blobs" remote="hsx" revision="dct"/>
+  <project path="device/xiaomi/mi439" name="tree-r-blobs" remote="hsx" revision="aosp"/>
+  <project path="device/xiaomi/sdm439-common" name="tree-r-blobs" remote="hsx" revision="dct-ff"/>
   <project path="vendor/xiaomi/mi439"  name="tree-r-blobs" remote="hsx" revision="vt"/>
   <project path="vendor/xiaomi/sdm439-common"  name="tree-r-blobs" remote="hsx" revision="vct"/>
-  <project path="kernel/xiaomi/sdm439" name="kernel_xiaomi_sdm439" remote="sil" revision="inline/teyvat3"  clone-depth="1"/>
-  <!--<project path="kernel/xiaomi/sdm439" name="kernel_xiaomi_sdm439" remote="hsx" revision="a12/main"  clone-depth="1"/>-->
+  <project path="kernel/xiaomi/sdm439" name="kernel_xiaomi_sdm439" remote="hsx" revision="a12/main"  clone-depth="1"/>
 
 </manifest>
