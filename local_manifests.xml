@@ -24,7 +24,7 @@
    <project path="hardware/qcom-caf/msm8996/audio" name="tree-r-blobs" remote="hsx" revision="audio"/>
    
    
-  <project path="device/xiaomi/mi439" name="tree-r-blobs" remote="hsx" revision="aosp"/>
+  <project path="device/xiaomi/mi439" name="tree-r-blobs" remote="hsx" revision="awkn"/>
   <project path="device/xiaomi/sdm439-common" name="tree-r-blobs" remote="hsx" revision="dct-ff"/>
   <project path="vendor/xiaomi/mi439"  name="tree-r-blobs" remote="hsx" revision="vt"/>
   <project path="vendor/xiaomi/sdm439-common"  name="tree-r-blobs" remote="hsx" revision="vct"/>
