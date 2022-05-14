@@ -4,34 +4,11 @@
    <remote  name="hsx"
            fetch="https://github.com/hsx02" />        	
  
-   <remote  name="pxl"
+   <remote  name="jbf"
            fetch="https://github.com/PixelExperience" />
- 
-   <remote  name="mit"
-           fetch="https://github.com/Mi-Thorium" />
-                       
-  <!-- Replacement -->
-  <remove-project name="LineageOS/android_packages_resources_devicesettings"/>
-   <project path="packages/resources/devicesettings" name="packages_resources_devicesettings" remote="hsx" revision="lineage-18.1"/>
-   <project path="packages/apps/FMRadio" name="packages_apps_FMRadio" remote="hsx" revision="lineage-18.1"/>
-  <remove-project name="LineageOS/android_hardware_qcom_wlan"/>
-   <project path="hardware/qcom-caf/wlan" name="audio_display_media_wlan" remote="hsx" revision="hardware/qcom-caf/wlan"/>	
-  <remove-project name="android_vendor_lineage"/>
-   <project path="vendor/lineage" name="android_vendor_lineage" remote="hsx" revision="lineage-19.1"/>	
-   <project path="external/ant-wireless/antradio-library" name="external_ant-wireless_antradio-library" remote="pxl" revision="twelve"/>
-  
-  <remove-project name="LineageOS/android_hardware_qcom_display"/>
-   <project path="hardware/qcom-caf/msm8953/display" name="tree-r-blobs" remote="hsx" revision="display"/>
-  <remove-project name="LineageOS/android_hardware_qcom_media"/>
-   <project path="hardware/qcom-caf/msm8953/media" name="tree-r-blobs" remote="hsx" revision="media"/>
-  <remove-project name="LineageOS/android_hardware_qcom_audio"/>
-   <project path="hardware/qcom-caf/msm8953/audio" name="android_hardware_qcom_audio" remote="mit" revision="lineage-19.1-caf-msm8953"/>
-   
-   
-  <project path="device/xiaomi/Mi439" name="android_device_xiaomi_Mi439" remote="mit" revision="a12/master"/>
-  <project path="vendor/xiaomi/Mi439" name="proprietary_vendor_xiaomi_Mi439" remote="mit" revision="a11/master"/>
-  <project path="device/xiaomi/mithorium-common" name="android_device_xiaomi_mithorium-common" remote="mit" revision="a12/master"/>
-  <project path="vendor/xiaomi/mithorium-common" name="proprietary_vendor_xiaomi_mithorium-common" remote="mit" revision="a12/master"/>
-  <project path="kernel/xiaomi/sdm439" name="kernel_xiaomi_sdm439" remote="hsx" revision="a12/main"  clone-depth="1"/>
+
+  <project path="device/xiaomi/spes" name="android_device_xiaomi_Mi439" remote="hsx" revision="evolutionx-12.1"/>
+  <project path="vendor/xiaomi/spes" name="android_vendor_xiaomi_spes" remote="jbf" revision="12"/>
+  <project path="kernel/xiaomi/spes" name="kernel_xiaomi_spes_header" remote="hsx" revision="12"  clone-depth="1"/>
 
 </manifest>
