@@ -11,8 +11,6 @@
            fetch="https://github.com/Mi-Thorium" />
                        
   <!-- Replacement -->
-  <remove-project name="LineageOS/android_packages_resources_devicesettings"/>
-   <project path="packages/resources/devicesettings" name="packages_resources_devicesettings" remote="hsx" revision="lineage-18.1"/>
    <project path="packages/apps/FMRadio" name="packages_apps_FMRadio" remote="hsx" revision="lineage-18.1"/>
   <remove-project name="LineageOS/android_hardware_qcom_wlan"/>
    <project path="hardware/qcom-caf/wlan" name="audio_display_media_wlan" remote="hsx" revision="hardware/qcom-caf/wlan"/>	
