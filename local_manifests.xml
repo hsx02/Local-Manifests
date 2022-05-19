@@ -13,7 +13,7 @@
 <remote  name="bd"
            fetch="https://gitlab.com/boedhack99" />
 
-  <project path="device/xiaomi/spes" name="device_xiaomi_spes" remote="hsx" revision="wip-los"/>
+  <project path="device/xiaomi/spes" name="android_device_xiaomi_spes" remote="hsx" revision="wip-los"/>
   <project path="vendor/xiaomi/spes" name="vendor_xiaomi_spes" remote="bd" revision="12"/>
   <project path="kernel/xiaomi/spes" name="kernel_xiaomi_spes_header" remote="ety" revision="12"  clone-depth="1"/>
 
