@@ -13,11 +13,14 @@
    <remote  name="jbfy"
            fetch="https://github.com/Jabiyeff" />
 
-<remote  name="chr"
+   <remote  name="chr"
            fetch="https://github.com/CHRISL7" />
 
+   <remote  name="chrgil"
+           fetch="https://gitlab.com/CHRISL77" />
+
   <project path="device/xiaomi/spes" name="device_xiaomi_spes" remote="chr" revision="twelve-wip"/>
-  <project path="vendor/xiaomi/spes" name="android_vendor_xiaomi_spes" remote="jbf" revision="12.1"/>
+  <project path="vendor/xiaomi/spes" name="vendor_xiaomi_spes" remote="chrgil" revision="twelve"/>
   <project path="kernel/xiaomi/spes" name="kernel_xiaomi_spes_header" remote="hsx" revision="12"  clone-depth="1"/>
  
   <project path="hardware/xiaomi" name="android_hardware_xiaomi" remote="los" revision="lineage-19.1"/>
