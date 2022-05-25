@@ -26,9 +26,7 @@
   <project path="vendor/xiaomi/spes" name="vendor_xiaomi_spes" remote="chrgil" revision="twelve"/>
   <project path="kernel/xiaomi/spes" name="kernel_xiaomi_spes" remote="chr" revision="twelve"  clone-depth="1"/>
  
-  <project path="hardware/xiaomi" name="android_hardware_xiaomi" remote="los" revision="lineage-19.1"/>
- <remove-project name="LineageOS/android_packages_resources_devicesettings"/> 
-  <project path="packages/resources/devicesettings" name="packages_resources_devicesettings" remote="chr" revision="twelve"/>
- <remove-project name="LineageOS/android_packages_apps_FlipFlap"/> 
-
+  <project path="hardware/xiaomi" name="android_hardware_xiaomi" remote="los" revision="lineage-19.1"/> 
+  <project path="packages/resources/devicesettings-pxl" name="packages_resources_devicesettings" remote="chr" revision="twelve"/>
+ 
 </manifest>
