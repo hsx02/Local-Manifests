@@ -22,11 +22,9 @@
    <remote  name="pxl"
            fetch="https://github.com/PixelExperience" />
 
-  <project path="device/xiaomi/spes" name="device_xiaomi_spes" remote="hsx" revision="twelve-wip"/>
-  <project path="vendor/xiaomi/spes" name="vendor_xiaomi_spes" remote="chrgil" revision="twelve"/>
-  <project path="kernel/xiaomi/spes" name="kernel_xiaomi_spes" remote="chr" revision="twelve"  clone-depth="1"/>
+  <project path="device/xiaomi/spes" name="android_device_xiaomi_spes" remote="jbfy" revision="12.1"/>
+  <project path="vendor/xiaomi/spes" name="android_vendor_xiaomi_spes" remote="jbf" revision="12.1"/>
+  <project path="kernel/xiaomi/spes" name="kernel_xiaomi_spes_header" remote="jbfy" revision="12"  clone-depth="1"/>
  
   <project path="hardware/xiaomi" name="android_hardware_xiaomi" remote="los" revision="lineage-19.1"/> 
-  <project path="packages/resources/devicesettings-pxl" name="packages_resources_devicesettings" remote="chr" revision="twelve"/>
- 
 </manifest>
