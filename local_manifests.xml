@@ -12,7 +12,7 @@
   <remote  name="evo-gl"
            fetch="https://gitlab.com/EvoX" />
 
-  <project path="device/xiaomi/spes" name="android_device_xiaomi_spes" remote="hsx" revision="spark-spes"/>
+  <project path="device/xiaomi/spes" name="android_device_xiaomi_spes" remote="hsx" revision="spark-spesn"/>
   <project path="vendor/xiaomi/spes" name="android_vendor_xiaomi_spes" remote="jbf" revision="12.1"/>
   <project path="kernel/xiaomi/spes" name="kernel_xiaomi_spes_header" remote="hsx" revision="12"  clone-depth="1"/>
   <project path="hardware/xiaomi" name="android_hardware_xiaomi" remote="los" revision="lineage-19.1"/>
