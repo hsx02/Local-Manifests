@@ -5,10 +5,10 @@
            fetch="https://github.com/hsx02" />        	
  
   <remote  name="mi-sdm439"
-           fetch="https://github.com/mi-sdm439"
+           fetch="https://github.com/mi-sdm439" />
 
   <remote  name="mi-thorium"
-           fetch="https://github.com/Mi-Thorium"
+           fetch="https://github.com/Mi-Thorium" />
            
   <project path="device/xiaomi/Mi439"  name="android_device_xiaomi_Mi439"                          remote="hsx" revision="a12/rom/cipher"/>
   <project path="vendor/xiaomi/Mi439"  name="proprietary_vendor_xiaomi_Mi439"                      remote="mi-thorium" revision="a11/master"/>        
