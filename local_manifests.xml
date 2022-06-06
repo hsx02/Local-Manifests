@@ -12,7 +12,7 @@
   <remote  name="evo-gl"
            fetch="https://gitlab.com/EvoX" />
   <remote  name="evo"
-           fetch="https://github.com/Evolution-X"
+           fetch="https://github.com/Evolution-X" />
            
   <project path="device/xiaomi/spes" name="android_device_xiaomi_spes" remote="hsx" revision="xd-spes"/>
   <project path="vendor/xiaomi/spes" name="android_vendor_xiaomi_spes" remote="jbf" revision="12.1"/>
