@@ -28,4 +28,7 @@
   <remove-project name="android_vendor_qcom_opensource_bluetooth-commonsys-intf"/>
   <project path="vendor/qcom/opensource/commonsys-intf/bluetooth" name="vendor_qcom_opensource_bluetooth-commonsys-intf" remote="evo" revision="snow"/>
 
+  <remove-project name="android_vendor_qcom_opensource_bluetooth_ext"/>
+  <project path="vendor/qcom/opensource/commonsys/bluetooth_ext" name="vendor_qcom_opensource_bluetooth_ext" remote="evo" revision="snow"/>
+
 </manifest>
