@@ -42,3 +42,4 @@
   <project path="vendor/xiaomi/sdm439-common"  name="xd_vendor_xiaomi_sdm439-common" remote="xxd" revision="twelve"/>
   <project path="kernel/xiaomi/sdm439" name="xd_kernel_xiaomi_sdm439" remote="xxd" revision="twelve"  clone-depth="1"/>  
   
+</manifest>
