@@ -1,34 +1,40 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
-	
+
+   <remote  name="pxl"
+           fetch="https://github.com/PixelExperience" />   
+
    <remote  name="hsx"
-           fetch="https://github.com/hsx02" />        	
-   <remote  name="jbf"
-           fetch="https://gitlab.com/Jabiyeff" />
-   <remote  name="los"
-           fetch="https://github.com/LineageOS" />
-   <remote  name="jbfy"
-           fetch="https://github.com/Jabiyeff" />
-  <remote  name="evo-gl"
-           fetch="https://gitlab.com/EvoX" />
-  <remote  name="evo"
-           fetch="https://github.com/Evolution-X" />
-           
-  <project path="device/xiaomi/spes" name="android_device_xiaomi_spes" remote="hsx" revision="xd-spes"/>
-  <project path="vendor/xiaomi/spes" name="android_vendor_xiaomi_spes" remote="jbf" revision="12.1"/>
-  <project path="kernel/xiaomi/spes" name="kernel_xiaomi_spes_header" remote="hsx" revision="12"  clone-depth="1"/>
- 
-  <remove-project name="xd_hardware_xiaomi"/>
-  <project path="hardware/xiaomi" name="android_hardware_xiaomi" remote="los" revision="lineage-19.1"/>
+           fetch="https://github.com/hsx02" />   
 
-  <remove-project name="android_vendor_qcom_opensource_packages_apps_Bluetooth"/>
-  <project path="vendor/qcom/opensource/commonsys/packages/apps/Bluetooth" name="vendor_qcom_opensource_packages_apps_Bluetooth" remote="evo" revision="snow"/>
-  <remove-project name="android_vendor_qcom_opensource_system_bt"/>
-  <project path="vendor/qcom/opensource/commonsys/system/bt" name="vendor_qcom_opensource_system_bt" remote="evo" revision="snow"/>
-  <remove-project name="android_vendor_qcom_opensource_bluetooth-commonsys-intf"/>
-  <project path="vendor/qcom/opensource/commonsys-intf/bluetooth" name="vendor_qcom_opensource_bluetooth-commonsys-intf" remote="evo" revision="snow"/>
+   <remote  name="mi"
+           fetch="https://github.com/mi-sdm439" />   
 
-  <remove-project name="android_vendor_qcom_opensource_bluetooth_ext"/>
-  <project path="vendor/qcom/opensource/commonsys/bluetooth_ext" name="vendor_qcom_opensource_bluetooth_ext" remote="evo" revision="snow"/>
+   <remote  name="dl"
+           fetch="https://github.com/dlwlrma123" />
 
-</manifest>
+   <remote  name="xxd"
+           fetch="https://github.com/xdroid-devices" />
+
+ <!-- Replacement -->
+  <remove-project name="android_packages_resources_devicesettings"/>
+   <project path="packages/resources/devicesettings" name="packages_resources_devicesettings" remote="hsx" revision="lineage-18.1"/>
+   <project path="packages/apps/FMRadio" name="packages_apps_FMRadio" remote="hsx" revision="lineage-18.1"/>
+
+   <project path="hardware/qcom-caf/msm8996/display" name="hardware_qcom-caf_display" remote="hsx" revision="Aex-S"/> 
+   <project path="hardware/qcom-caf/msm8996/audio" name="hardware_qcom_audio" remote="hsx" revision="8.6.2"/>
+   <project path="hardware/qcom-caf/msm8996/media" name="hardware_qcom_media" remote="hsx" revision="8.6.2"/>
+
+  <remove-project name="android_hardware_qcom_wlan"/>
+   <project path="hardware/qcom-caf/wlan" name="hardware_qcom-caf_wlan" remote="hsx" revision="S"/>
+   <project path="vendor/qcom/opensource/libfmjni" name="vendor_qcom_opensource_libfmjni" remote="pxl" revision="twelve"/>
+  <remove-project name="xd_frameworks_base"/>
+   <project path="frameworks/base" name="xd_frameworks_base" remote="hsx" revision="mod"/>
+   <project path="official-settings" name="sett" remote="hsx" revision="12"/>
+
+  <project path="device/xiaomi/pine" name="xd_device_xiaomi_pine" remote="hsx" revision="of"/>
+  <project path="device/xiaomi/sdm439-common" name="exp" remote="hsx" revision="commontree"/>
+  <project path="vendor/xiaomi/pine"  name="vendor_xiaomi_pine" remote="hsx" revision="12.0"/>
+  <project path="vendor/xiaomi/sdm439-common"  name="vendor_xiaomi_sdm439-common" remote="hsx" revision="12.0"/>
+  <project path="kernel/xiaomi/sdm439" name="kernel_xiaomi_sdm439" remote="hsx" revision="a12/main"  clone-depth="1"/>  
+  
