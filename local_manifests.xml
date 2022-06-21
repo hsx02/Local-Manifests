@@ -21,5 +21,7 @@
   <project path="hardware/xiaomi" name="android_hardware_xiaomi" remote="los" revision="lineage-19.1"/>
   <remove-project name="LineageOS/android_packages_resources_devicesettings"/>
    <project path="packages/resources/devicesettings" name="packages_resources_devicesettings" remote="ex" revision="snow"/>
+  <remove-project name="LineageOS/android_packages_apps_Nfc"/>
+   <project path="packages/apps/Nfc" name="packages_apps_Nfc" remote="ex" revision="snow"/>
 
  </manifest>
