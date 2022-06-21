@@ -12,9 +12,14 @@
   <remote  name="evo-gl"
            fetch="https://gitlab.com/EvoX" />
 
+  <remote  name="ex"
+           fetch="https://github.com/Evolution-X" />
+
   <project path="device/xiaomi/spes" name="android_device_xiaomi_spes" remote="hsx" revision="12.1-dd-los"/>
   <project path="vendor/xiaomi/spes" name="proprietary_vendor_xiaomi_spes" remote="hsx" revision="EvolutionX"/>
   <project path="kernel/xiaomi/spes" name="kernel_xiaomi_spes_header" remote="hsx" revision="12"  clone-depth="1"/>
   <project path="hardware/xiaomi" name="android_hardware_xiaomi" remote="los" revision="lineage-19.1"/>
+  <remove-project name="LineageOS/android_packages_resources_devicesettings"/>
+   <project path="packages/resources/devicesettings" name="packages_resources_devicesettings" remote="ex" revision="snow"/>
 
  </manifest>
