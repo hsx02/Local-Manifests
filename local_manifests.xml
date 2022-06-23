@@ -11,14 +11,12 @@
            fetch="https://github.com/Jabiyeff" />
   <remote  name="evo-gl"
            fetch="https://gitlab.com/EvoX" />
-
   <remote  name="ex"
            fetch="https://github.com/Evolution-X" />
-
-  <project path="device/xiaomi/spes" name="android_device_xiaomi_spes" remote="hsx" revision="evox-jbf"/>
-  <project path="vendor/xiaomi/spes" name="android_vendor_xiaomi_spes" remote="jbfy" revision="12.1"/>
+  <project path="device/xiaomi/spes" name="android_device_xiaomi_spes" remote="hsx" revision="test-los"/>
+  <project path="vendor/xiaomi/spes" name="proprietary_vendor_xiaomi_spes" remote="hsx" revision="test3"/>
   <project path="kernel/xiaomi/spes" name="kernel_xiaomi_spes_header" remote="hsx" revision="12"  clone-depth="1"/>
-  <remove-project name="ArrowOS-Devices/android_hardware_xiaomi"/>
-   <project path="hardware/xiaomi" name="android_hardware_xiaomi" remote="hsx" revision="lineage-19.1"/>
-
+  <project path="hardware/xiaomi" name="android_hardware_xiaomi" remote="los" revision="lineage-19.1"/>
+  <remove-project name="LineageOS/android_packages_resources_devicesettings"/>
+   <project path="packages/resources/devicesettings" name="packages_resources_devicesettings" remote="ex" revision="snow"/>
  </manifest>
