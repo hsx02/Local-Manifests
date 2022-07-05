@@ -24,5 +24,7 @@
   <project path="hardware/xiaomi" name="android_hardware_xiaomi" remote="hsx" revision="lineage-19.1"/>
  <remove-project name="vendor_evolution"/>
   <project path="vendor/evolution" name="vendor_evox" remote="hsx" revision="snow"/>
+<remove-project name="packages_apps_Settings"/>
+  <project path="packages/apps/Settings" name="evox_apps_Settings" remote="hsx" revision="snow"/>
 
  </manifest>
