@@ -16,7 +16,7 @@
            fetch="https://github.com/Evolution-X" />
 
   <project path="device/xiaomi/spes" name="android_device_xiaomi_spes" remote="hsx" revision="test"/>
-  <project path="vendor/xiaomi/spes" name="android_vendor_xiaomi_spes" remote="jbfy" revision="test"/>
+  <project path="vendor/xiaomi/spes" name="android_vendor_xiaomi_spes" remote="hsx" revision="test"/>
   <project path="kernel/xiaomi/spes" name="kernel_xiaomi_spes_header" remote="hsx" revision="12"  clone-depth="1"/>
   <project path="vendor/prebuilt_apps" name="vendor_prebuilt-apps" remote="hsx" revision="master"  clone-depth="1"/>
  
