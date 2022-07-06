@@ -20,7 +20,7 @@
   <project path="kernel/xiaomi/spes" name="kernel_xiaomi_spes_header" remote="hsx" revision="12"  clone-depth="1"/>
   <project path="vendor/prebuilt_apps" name="vendor_prebuilt-apps" remote="hsx" revision="master"  clone-depth="1"/>
  
- <remove-project name="ArrowOS-Devices/android_hardware_xiaomi"/>
+ <remove-project name="hardware_xiaomi"/>
   <project path="hardware/xiaomi" name="android_hardware_xiaomi" remote="hsx" revision="lineage-19.1"/>
  <remove-project name="vendor_evolution"/>
   <project path="vendor/evolution" name="vendor_evox" remote="hsx" revision="snow"/>
