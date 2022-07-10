@@ -3,38 +3,26 @@
 	
    <remote  name="hsx"
            fetch="https://github.com/hsx02" />        	
- 
-   <remote  name="pxl"
-           fetch="https://github.com/PixelExperience" />
+   <remote  name="jbf"
+           fetch="https://gitlab.com/Jabiyeff" />
+   <remote  name="los"
+           fetch="https://github.com/LineageOS" />
+   <remote  name="jbfy"
+           fetch="https://github.com/Jabiyeff" />
+   <remote  name="evo-gl"
+           fetch="https://gitlab.com/EvoX" />
 
-   <remote  name="flos"
-           fetch="https://github.com/ForkLineageOS" />
- 
-   <remote  name="sil"
-           fetch="https://github.com/silont-project" />
-               
-  <!-- Replacement -->
+  <remote  name="ex"
+           fetch="https://github.com/Evolution-X" />
 
-  <remove-project name="android_vendor_awaken"/>
-   <project path="vendor/awaken" name="android_vendor_awaken" remote="hsx" revision="12.1"/>
-  <remove-project name="LineageOS/android_packages_resources_devicesettings"/>
-   <project path="packages/resources/devicesettings" name="packages_resources_devicesettings" remote="hsx" revision="lineage-18.1"/>
-   <project path="packages/apps/FMRadio" name="packages_apps_FMRadio" remote="hsx" revision="lineage-18.1"/>
-  <remove-project name="LineageOS/android_hardware_qcom_wlan"/>
-   <project path="hardware/qcom-caf/wlan" name="audio_display_media_wlan" remote="hsx" revision="hardware/qcom-caf/wlan"/>	
-   <project path="external/ant-wireless/antradio-library" name="external_ant-wireless_antradio-library" remote="pxl" revision="twelve"/>
- 
-  <remove-project name="LineageOS/android_hardware_qcom_display"/>
-   <project path="hardware/qcom-caf/msm8996/display" name="tree-r-blobs" remote="hsx" revision="display"/>
-  <remove-project name="LineageOS/android_hardware_qcom_media"/>
-   <project path="hardware/qcom-caf/msm8996/media" name="tree-r-blobs" remote="hsx" revision="media"/>
-  <remove-project name="LineageOS/android_hardware_qcom_audio"/>
-   <project path="hardware/qcom-caf/msm8996/audio" name="tree-r-blobs" remote="hsx" revision="audio"/>
+  <project path="device/xiaomi/spes" name="android_device_xiaomi_spes" remote="hsx" revision="test"/>
+  <project path="vendor/xiaomi/spes" name="android_vendor_xiaomi_spes" remote="hsx" revision="test"/>
+  <project path="kernel/xiaomi/spes" name="kernel_xiaomi_spes_header" remote="hsx" revision="12"  clone-depth="1"/>
+  
+  <project path="hardware/xiaomi" name="android_hardware_xiaomi" remote="hsx" revision="lineage-19.1"/>
+<remove-project name="android_vendor_awaken"/>
+  <project path="vendor/awaken" name="android_vendor_awaken" remote="hsx" revision="12.1"/>
+<remove-project name="LineageOS/android_packages_resources_devicesettings"/>
+  <project path="packages/resources/devicesettings" name="packages_resources_devicesettings" remote="ex" revision="snow"/>
 
-  <project path="device/xiaomi/mi439" name="tree-r-blobs" remote="hsx" revision="awkn"/>
-  <project path="device/xiaomi/sdm439-common" name="tree-r-blobs" remote="hsx" revision="dct-ff"/>
-  <project path="vendor/xiaomi/mi439"  name="vendor_xiaomi_mi439" remote="hsx" revision="12.1-unified-r"/>
-  <project path="vendor/xiaomi/sdm439-common"  name="vendor_xiaomi_sdm439-common" remote="hsx" revision="12.1-unified-r"/>
-  <project path="kernel/xiaomi/sdm439" name="kernel_xiaomi_sdm439" remote="hsx" revision="a12/main"  clone-depth="1"/>
-
-</manifest>
+ </manifest>
