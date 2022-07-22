@@ -3,21 +3,17 @@
 	
    <remote  name="hsx"
            fetch="https://github.com/hsx02" />        	
-   <remote  name="jbf"
-           fetch="https://gitlab.com/Jabiyeff" />
    <remote  name="los"
            fetch="https://github.com/LineageOS" />
-   <remote  name="jbfy"
-           fetch="https://github.com/Jabiyeff" />
-  <remote  name="evo-gl"
-           fetch="https://gitlab.com/EvoX" />
-  <remote  name="ex"
+   <remote  name="ex"
            fetch="https://github.com/Evolution-X" />
 
-  <project path="device/xiaomi/spes" name="android_device_xiaomi_spes" remote="hsx" revision="spark-12.1"/>
+  <project path="device/xiaomi/spes" name="android_device_xiaomi_spes" remote="hsx" revision="lineage-19.1"/>
   <project path="vendor/xiaomi/spes" name="android_vendor_xiaomi_spes" remote="hsx" revision="lineage-19.1"/>
   <project path="kernel/xiaomi/spes" name="kernel_xiaomi_spes_header" remote="hsx" revision="12"  clone-depth="1"/>
- <remove-project name="ArrowOS-Devices/android_hardware_xiaomi"/>
+ <remove-project name="platform_vendor_spark"/>
+  <project path="vendor/spark" name="platform_vendor_spark" remote="hsx" revision="spark"/>
+ <remove-project name="hardware_xiaomi"/>
   <project path="hardware/xiaomi" name="android_hardware_xiaomi" remote="hsx" revision="lineage-19.1"/>
  <remove-project name="android_packages_resources_devicesettings"/>
   <project path="packages/resources/devicesettings" name="packages_resources_devicesettings" remote="ex" revision="snow"/>
