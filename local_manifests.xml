@@ -4,7 +4,7 @@
 <remote  name="hsx"
            fetch="https://github.com/hsx02" /> 
 
-<remote  name="pe"
+<remote  name="pee"
            fetch="https://github.com/PixelExperience" />
        	
 <remote  name="xp"
@@ -29,7 +29,7 @@
  <project path="vendor/evolution" name="evo_base" remote="hsx" revision="ve"/>
 
  <project path="android/external/androidsystemblur" name="android_external_androidsystemblur" remote="xp" revision="xpe-16.1-L"/>
- <project path="packages/apps/TouchGestures" name="packages_apps_TouchGestures" remote="pe" revision="twelve"/>
+ <project path="packages/apps/TouchGestures" name="packages_apps_TouchGestures" remote="pee" revision="twelve"/>
 
 
  </manifest>
