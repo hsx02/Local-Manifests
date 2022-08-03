@@ -2,7 +2,14 @@
 <manifest>
 	
 <remote  name="hsx"
-           fetch="https://github.com/hsx02" />        	
+           fetch="https://github.com/hsx02" /> 
+
+<remote  name="pe"
+           fetch="https://github.com/PixelExperience" />
+       	
+<remote  name="xp"
+           fetch="https://github.com/TheXPerienceProject" />
+       	
 
  <project path="device/xiaomi/spes" name="android_device_xiaomi_spes" remote="hsx" revision="test"/>
  <project path="vendor/xiaomi/spes" name="android_vendor_xiaomi_spes" remote="hsx" revision="test"/>
@@ -20,4 +27,9 @@
  <project path="packages/apps/Settings" name="evo_base" remote="hsx" revision="set"/>
  <project path="frameworks/base" name="evo_base" remote="hsx" revision="b"/>
  <project path="vendor/evolution" name="evo_base" remote="hsx" revision="ve"/>
+
+ <project path="android/external/androidsystemblur" name="android_external_androidsystemblur" remote="xp" revision="b"/>
+ <project path="packages/apps/TouchGestures" name="packages_apps_TouchGestures" remote="pe" revision="twelve"/>
+
+
  </manifest>
