@@ -15,6 +15,16 @@ ro.camera.res.fmq.size                          u:object_r:vendor_camera_prop:s0
 ro.camera.req.fmq.size                          u:object_r:vendor_camera_prop:s0
 vendor.vidhance.preview.vs.cropfactor           u:object_r:vendor_camera_prop:s0
 vendor.vidhance.video.vs.cropfactor             u:object_r:vendor_camera_prop:s0
+persist.camera.sensor.name              u:object_r:vendor_default_prop:s0
+persist.camera.module.info              u:object_r:vendor_default_prop:s0
+cameradaemon.SaveMemAtBoot              u:object_r:vendor_default_prop:s0
+cpp.set.clock                           u:object_r:vendor_default_prop:s0
+disable.cpp.power.collapse              u:object_r:vendor_default_prop:s0
+vendor.camera.                          u:object_r:vendor_camera_prop:s0
+vidc.enc.dcvs.extra-buff-count          u:object_r:vendor_default_prop:s0
+camerai.                                u:object_r:vendor_camera_prop:s0
+ro.camera.                              u:object_r:vendor_camera_prop:s0
+camera_screen_light_delay               u:object_r:vendor_camera_prop:s0
 
 # DFPS
 persist.vendor.dfps.level                       u:object_r:vendor_display_prop:s0
@@ -88,3 +98,4 @@ vendor.sys.thermal.                             u:object_r:vendor_thermal_normal
 # WiFi
 ro.wlan.chip                                    u:object_r:vendor_public_vendor_default_prop:s0
 ro.ril.oem.wifimac                              u:object_r:vendor_wifimac_prop:s0
+
