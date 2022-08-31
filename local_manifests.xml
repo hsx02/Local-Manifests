@@ -4,32 +4,22 @@
 <remote  name="hsx"
            fetch="https://github.com/hsx02" /> 
 
-<remote  name="pee"
-           fetch="https://github.com/PixelExperience" />
-       	
-<remote  name="xp"
-           fetch="https://github.com/TheXPerienceProject" />
+<remote  name="jy"
+           fetch="https://github.com/Jabiyeff" />
        	
 
- <project path="device/xiaomi/spes" name="android_device_xiaomi_spes" remote="hsx" revision="test"/>
- <project path="vendor/xiaomi/spes" name="android_vendor_xiaomi_spes" remote="hsx" revision="test"/>
+ <project path="device/xiaomi/spes" name="android_device_xiaomi_spes" remote="hsx" revision="testfinal"/>
+ <project path="vendor/xiaomi/spes" name="android_vendor_xiaomi_spes" remote="jy" revision="12.1"/>
  <project path="kernel/xiaomi/spes" name="kernel_xiaomi_spes_header" remote="hsx" revision="12"  clone-depth="1"/>
- <project path="vendor/prebuilt-apps" name="vendor_prebuilt-apps" remote="hsx" revision="master"  clone-depth="1"/>
- 
- <remove-project name="hardware_xiaomi"/>
+
  <remove-project name="packages_apps_Evolver"/>
  <remove-project name="packages_apps_Settings"/>
  <remove-project name="frameworks_base"/>
  <remove-project name="vendor_evolution"/>
 
- <project path="hardware/xiaomi" name="android_hardware_xiaomi" remote="hsx" revision="lineage-19.1"/>
- <project path="packages/apps/Evolver" name="evo_base" remote="hsx" revision="ev"/>
- <project path="packages/apps/Settings" name="evo_base" remote="hsx" revision="set"/>
- <project path="frameworks/base" name="evo_base" remote="hsx" revision="b"/>
- <project path="vendor/evolution" name="evo_base" remote="hsx" revision="ve"/>
-
- <project path="android/external/androidsystemblur" name="android_external_androidsystemblur" remote="xp" revision="xpe-16.1-L"/>
- <project path="packages/apps/TouchGestures" name="packages_apps_TouchGestures" remote="pee" revision="twelve"/>
-
+ <project path="packages/apps/Evolver" name="evox1" remote="hsx" revision="ev4"/>
+ <project path="packages/apps/Settings" name="evox1" remote="hsx" revision="set4"/>
+ <project path="frameworks/base" name="evox1" remote="hsx" revision="bas4"/>
+ <project path="vendor/evolution" name="evox1" remote="hsx" revision="ven4"/>
 
  </manifest>
