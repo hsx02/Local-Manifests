@@ -6,9 +6,11 @@
 
 <remote  name="jy"
            fetch="https://github.com/Jabiyeff" />
-       	
+
+<remote  name="ed"
+           fetch="https://github.com/Evolution-X-Devices" />
 
  <project path="device/xiaomi/spes" name="android_device_xiaomi_spes" remote="hsx" revision="13-test"/>
- <project path="vendor/xiaomi/spes" name="android_vendor_xiaomi_spes" remote="jy" revision="13.0"/>
+ <project path="vendor/xiaomi/spes" name="vendor_xiaomi_spes" remote="ed" revision="tiramisu"/>
  <project path="kernel/xiaomi/spes" name="kernel_xiaomi_spes_header" remote="hsx" revision="12"  clone-depth="1"/>
  </manifest>
