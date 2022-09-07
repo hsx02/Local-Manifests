@@ -8,18 +8,7 @@
            fetch="https://github.com/Jabiyeff" />
        	
 
- <project path="device/xiaomi/spes" name="android_device_xiaomi_spes" remote="hsx" revision="testfinal"/>
- <project path="vendor/xiaomi/spes" name="android_vendor_xiaomi_spes" remote="jy" revision="12.1"/>
+ <project path="device/xiaomi/spes" name="android_device_xiaomi_spes" remote="hsx" revision="13-test"/>
+ <project path="vendor/xiaomi/spes" name="android_vendor_xiaomi_spes" remote="jy" revision="13.0"/>
  <project path="kernel/xiaomi/spes" name="kernel_xiaomi_spes_header" remote="hsx" revision="12"  clone-depth="1"/>
-
- <remove-project name="packages_apps_Evolver"/>
- <remove-project name="packages_apps_Settings"/>
- <remove-project name="frameworks_base"/>
- <remove-project name="vendor_evolution"/>
-
- <project path="packages/apps/Evolver" name="evox1" remote="hsx" revision="ev4"/>
- <project path="packages/apps/Settings" name="evox1" remote="hsx" revision="set4"/>
- <project path="frameworks/base" name="evox1" remote="hsx" revision="bas4"/>
- <project path="vendor/evolution" name="evox1" remote="hsx" revision="ven4"/>
-
  </manifest>
