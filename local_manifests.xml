@@ -13,6 +13,9 @@
 <remote  name="AM"
            fetch="https://github.com/AOSP-Mi439" />
 
+<remove-project name="packages_apps_Settings"/>
+  <project path="packages/apps/Settings" name="packages_apps_Settings" remote="AM" revision="tiramisu"/>
+
 <remove-project name="frameworks_base"/>
   <project path="frameworks/base" name="frameworks_base" remote="AM" revision="tiramisu"/>
 
