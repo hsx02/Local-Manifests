@@ -4,7 +4,7 @@
 <remote  name="hsx"
            fetch="https://github.com/hsx02" /> 
 
-<remote  name="jy"
+<remote  name="j"
            fetch="https://github.com/Jabiyeff" />
 
 <remote  name="ed"
