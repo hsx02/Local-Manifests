@@ -4,11 +4,17 @@
 <remote  name="hsx"
            fetch="https://github.com/hsx02" /> 
 
-<remote  name="j"
+<remote  name="jy"
            fetch="https://github.com/Jabiyeff" />
 
 <remote  name="ed"
            fetch="https://github.com/Evolution-X-Devices" />
+
+<remote  name="AM"
+           fetch="https://github.com/AOSP-Mi439" />
+
+<remove-project name="frameworks_base"/>
+  <project path="frameworks/base" name="frameworks_base" remote="AM" revision="tiramisu"/>
 
  <project path="device/xiaomi/spes" name="device_xiaomi_spes" remote="hsx" revision="tiramisu"/>
  <project path="vendor/xiaomi/spes" name="vendor_xiaomi_spes" remote="ed" revision="tiramisu"/>
