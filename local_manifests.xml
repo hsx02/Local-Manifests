@@ -10,9 +10,15 @@
 <remote  name="ed"
            fetch="https://github.com/Evolution-X-Devices" />
 
-<remote  name="AM"
-           fetch="https://github.com/AOSP-Mi439" />
+<remote  name="EX"
+           fetch="https://github.com/Evolution-X" />
 
+<remove-project name="android_packages_resources_devicesettings"/>
+  <project path="packages/resources/devicesettings" name="packages_resources_devicesettings" remote="EX" revision="tiramisu"/>
+
+<remove-project name="android_frameworks_base"/>
+  <project path="frameworks/base" name="android_frameworks_base" remote="hsx" revision="tiramisu"/>
+ 
  <project path="device/xiaomi/spes" name="device_xiaomi_spes" remote="hsx" revision="cherish"/>
  <project path="vendor/xiaomi/spes" name="vendor_xiaomi_spes" remote="ed" revision="tiramisu"/>
  <project path="kernel/xiaomi/spes" name="kernel_xiaomi_spes_header" remote="hsx" revision="12"  clone-depth="1"/>
