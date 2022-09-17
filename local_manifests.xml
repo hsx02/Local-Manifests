@@ -17,7 +17,7 @@
   <project path="packages/resources/devicesettings" name="packages_resources_devicesettings" remote="EX" revision="tiramisu"/>
 
 <remove-project name="android_frameworks_base"/>
-  <project path="frameworks/base" name="android_frameworks_base" remote="hsx" revision="tiramisu"/>
+  <project path="frameworks/base" name="android_frameworks_base-1" remote="hsx" revision="tiramisu"/>
  
  <project path="device/xiaomi/spes" name="device_xiaomi_spes" remote="hsx" revision="cherish"/>
  <project path="vendor/xiaomi/spes" name="vendor_xiaomi_spes" remote="ed" revision="tiramisu"/>
