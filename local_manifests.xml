@@ -20,7 +20,7 @@
                 fetch="https://github.com" />
 
         <!-- Sync trees -->
-        <project path="device/xiaomi/spes" name="device_xiaomi_spes-1" remote="hsx" revision="cherish" />
+        <project path="device/xiaomi/spes" name="device_xiaomi_spes-1" remote="hsx" revision="arrow-13.0" />
         <project path="vendor/xiaomi/spes" name="dblenk-project/vendor_xiaomi_spes" remote="dblenk9" revision="lineage-20.0" />
         <project path="device/xiaomi/sm6225-common" name="device_xiaomi_sm6225-common" remote="hsx" revision="13" />
         <project path="vendor/xiaomi/sm6225-common" name="dblenk-project/vendor_xiaomi_sm6225-common" remote="dblenk9" revision="lineage-20.0" />
