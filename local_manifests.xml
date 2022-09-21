@@ -18,7 +18,7 @@
   <project path="packages/apps/Settings" name="packages_apps_Settings" remote="hsx" revision="tiramisu"/>
 
 <remove-project name="frameworks_base"/>
-  <project path="frameworks/base" name="frameworks_base" remote="hsx" revision="tiamisu2"/>
+  <project path="frameworks/base" name="frameworks_base" remote="hsx" revision="tiramisumod"/>
 
  <project path="device/xiaomi/spes" name="device_xiaomi_spes" remote="hsx" revision="tiramisu"/>
  <project path="vendor/xiaomi/spes" name="vendor_xiaomi_spes" remote="ed" revision="tiramisu"/>
