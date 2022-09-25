@@ -19,10 +19,6 @@
 
 <remove-project name="frameworks_base"/>
   <project path="frameworks/base" name="frameworks_base" remote="hsx" revision="mod1"/>
-<remove-project name="packages_apps_Evolver"/>
-  <project path="packages/apps/Evolver" name="frameworks_base" remote="hsx" revision="ev"/>
-<remove-project name="vendor_evolution"/>
-  <project path="vendor/evolution" name="frameworks_base" remote="hsx" revision="ve"/>
 
  <project path="device/xiaomi/spes" name="device_xiaomi_spes" remote="hsx" revision="tiramisu"/>
  <project path="vendor/xiaomi/spes" name="vendor_xiaomi_spes" remote="ed" revision="tiramisu"/>
