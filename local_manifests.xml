@@ -4,23 +4,12 @@
 <remote  name="hsx"
            fetch="https://github.com/hsx02" /> 
 
-<remote  name="jy"
-           fetch="https://github.com/Jabiyeff" />
-
-<remote  name="ed"
-           fetch="https://github.com/Evolution-X-Devices" />
-
-<remote  name="AM"
-           fetch="https://github.com/AOSP-Mi439" />
-
-
-<remove-project name="packages_apps_Settings"/>
-  <project path="packages/apps/Settings" name="packages_apps_Settings" remote="hsx" revision="mod"/>
-
-<remove-project name="frameworks_base"/>
-  <project path="frameworks/base" name="frameworks_base" remote="hsx" revision="mod1"/>
-
  <project path="device/xiaomi/spes" name="device_xiaomi_spes" remote="hsx" revision="tiramisu"/>
- <project path="vendor/xiaomi/spes" name="vendor_xiaomi_spes" remote="ed" revision="tiramisu"/>
- <project path="kernel/xiaomi/spes" name="kernel_xiaomi_spes_header" remote="hsx" revision="12"  clone-depth="1"/>
- </manifest>
+ <project path="vendor/xiaomi/spes" name="vendor_xiaomi_spes" remote="hsx" revision="tiramisu"/>
+ <project path="kernel/xiaomi/spes" name="kernel_xiaomi_spes-header" remote="hsx" revision="12"  clone-depth="1"/>
+
+<!-- Additional required repos -->
+ <project path="packages/resources/devicesettings" name="packages_resources_devicesettings" remote="evx" />
+ <project path="hardware/xiaomi" name="hardware_xiaomi" remote="evx" />
+ <project path="packages/apps/GCamGOPrebuilt" name="packages_apps_GCamGOPrebuilt" remote="hsx" revision="snow"/>
+</manifest>
