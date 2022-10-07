@@ -10,6 +10,10 @@
 <remote  name="dbk"
            fetch="https://github.com/dblenk-project" /> 
 
+<remote  name="awaken-gitlab"
+           fetch="https://gitlab.com/Project-Awaken/"
+           revision="triton" />
+
 <!-- Device trees -->
  <project path="device/xiaomi/spes" name="device_xiaomi_spes" remote="dbk" revision="lineage-20.0"/>
  <project path="vendor/xiaomi/spes" name="vendor_xiaomi_spes" remote="dbk" revision="lineage-20.0"/>
@@ -23,4 +27,5 @@
  <remove-project name="RiceDroid/android_frameworks_base"/>
  <project path="frameworks/base" name="android_frameworks_base" remote="hsx" revision="thirteen"/>
  <project path="hardware/xiaomi" name="hardware_xiaomi" remote="evx" revision="tiramisu"/>
+ <project path="vendor/gms" name="android_vendor_gms" remote="awaken-gitlab" clone-depth="1" />
  </manifest>
