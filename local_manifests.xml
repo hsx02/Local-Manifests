@@ -27,5 +27,5 @@
  <remove-project name="LineageOS/android_hardware_lineage_compat"/>
  <project path="frameworks/base" name="android_frameworks_base" remote="hsx" revision="thirteen"/>
  <project path="hardware/xiaomi" name="hardware_xiaomi" remote="evx" revision="tiramisu"/>
- <project path="vendor/gapps" name="android_vendor_gapps" remote="arw" clone-depth="1" />
+ <project path="vendor/gapps" name="android_vendor_gapps" remote="arw" revision="arrow-13.0" clone-depth="1" />
  </manifest>
