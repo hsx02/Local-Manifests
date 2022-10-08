@@ -15,7 +15,7 @@
            revision="triton" />
 
 <!-- Device trees -->
- <project path="device/xiaomi/spes" name="device_xiaomi_spes" remote="dbk" revision="lineage-20.0"/>
+ <project path="device/xiaomi/spes" name="device_xiaomi_spes-1" remote="hsx" revision="lineage-20.0"/>
  <project path="vendor/xiaomi/spes" name="vendor_xiaomi_spes" remote="dbk" revision="lineage-20.0"/>
  <project path="device/xiaomi/sm6225-common" name="device_xiaomi_sm6225-common" remote="dbk" revision="lineage-20.0"/>
  <project path="vendor/xiaomi/sm6225-common" name="vendor_xiaomi_sm6225-common" remote="dbk" revision="lineage-20.0"/>
