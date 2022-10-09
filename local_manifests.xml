@@ -13,9 +13,15 @@
 <remote  name="arw"
            fetch="https://gitlab.com/arrowos-project" />
 
-<!-- Device trees -->
+<!-- Redmi 10C -->
+ <project path="device/xiaomi/fog" name="device_xiaomi_fog" remote="hsx" revision="lineage-20.0"/>
+ <project path="vendor/xiaomi/fog" name="vendor_xiaomi_fog" remote="dbk" revision="lineage-20.0"/>
+
+<!-- Redmi Note 11 4G -->
  <project path="device/xiaomi/spes" name="device_xiaomi_spes-1" remote="hsx" revision="lineage-20.0"/>
  <project path="vendor/xiaomi/spes" name="vendor_xiaomi_spes" remote="dbk" revision="lineage-20.0"/>
+ 
+ <!-- Common trees -->
  <project path="device/xiaomi/sm6225-common" name="device_xiaomi_sm6225-common" remote="dbk" revision="lineage-20.0"/>
  <project path="vendor/xiaomi/sm6225-common" name="vendor_xiaomi_sm6225-common" remote="dbk" revision="lineage-20.0"/>
  <project path="kernel/xiaomi/sm6225-common" name="kernel_xiaomi_sm6225-common_header" remote="dbk" revision="lineage-19.1" clone-depth="1"/>
