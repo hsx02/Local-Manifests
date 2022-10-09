@@ -13,9 +13,13 @@
 <remote  name="arw"
            fetch="https://gitlab.com/arrowos-project" />
 
+<!-- Redmi 10C -->
+ <project path="device/xiaomi/fog" name="dxfog" remote="hsx" revision="thirteen"/>
+ <project path="vendor/xiaomi/fog" name="vxfog" remote="hsx" revision="thirteen"/>
+
 <!-- Redmi Note 11 4G -->
  <project path="device/xiaomi/spes" name="dxspes" remote="hsx" revision="thirteen"/>
- <project path="vendor/xiaomi/spes" name="vxspes" remote="hsx" revision="13"/>
+ <project path="vendor/xiaomi/spes" name="vxspes" remote="hsx" revision="thirteen"/>
  
  <!-- Common trees -->
  <project path="device/xiaomi/sm6225-common" name="dxsm6225" remote="hsx" revision="thirteen"/>
