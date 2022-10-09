@@ -15,7 +15,7 @@
 
 <!-- Redmi Note 11 4G -->
  <project path="device/xiaomi/spes" name="dxspes" remote="hsx" revision="thirteen"/>
- <project path="vendor/xiaomi/spes" name="vxspes" remote="hsx" revision="thirteen"/>
+ <project path="vendor/xiaomi/spes" name="vxspes" remote="hsx" revision="13"/>
  
  <!-- Common trees -->
  <project path="device/xiaomi/sm6225-common" name="dxsm6225" remote="hsx" revision="thirteen"/>
