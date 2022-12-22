@@ -7,6 +7,9 @@
 <remote  name="jb"
            fetch="https://github.com/Jabiyeff" /> 
 
+<remote  name="evx"
+           fetch="https://github.com/Evolution-X" /> 
+
  <project path="device/xiaomi/spes" name="dxspes" remote="hsx" revision="los-test"/>
  <project path="vendor/xiaomi/spes" name="vxspes" remote="hsx" revision="test3"/>
  <project path="kernel/xiaomi/spes" name="kernel_xiaomi_spes_header" remote="jb" revision="12"  clone-depth="1"/>
@@ -14,4 +17,6 @@
 <!-- Additional required repos -->
  <remove-project name="RiceDroid/android_vendor_rice"/>
  <project path="vendor/lineage" name="android_vendor_rice" remote="hsx" revision="tiramisu"/>
+ 
+ <project path="hardware/xiaomi" name="hardware_xiaomi" remote="evx" revision="tiramisu"/>
 </manifest>
