@@ -4,30 +4,14 @@
 <remote  name="hsx"
            fetch="https://github.com/hsx02" /> 
 
-<remote  name="evx"
-           fetch="https://github.com/Evolution-X" /> 
-
-<remote  name="dbk"
-           fetch="https://github.com/dblenk-project" /> 
-
-<remote  name="arw"
-           fetch="https://gitlab.com/arrowos-project" />
-
-<remote  name="ed"
-           fetch="https://github.com/Evolution-X-Devices" />
-
-<remote  name="etylix"
-           fetch="https://github.com/etylix" />
+<remote  name="jb"
+           fetch="https://github.com/Jabiyeff" /> 
 
  <project path="device/xiaomi/spes" name="dxspes" remote="hsx" revision="etylix"/>
- <project path="vendor/xiaomi/spes" name="vendor_xiaomi_spes" remote="ed" revision="tiramisu"/>
- <project path="kernel/xiaomi/spes" name="kernel_xiaomi_spes-header" remote="etylix" revision="12"  clone-depth="1"/>
+ <project path="vendor/xiaomi/spes" name="vxspes" remote="hsx" revision="tiramisu"/>
+ <project path="kernel/xiaomi/spes" name="kernel_xiaomi_spes_header" remote="jb" revision="12"  clone-depth="1"/>
 
 <!-- Additional required repos -->
- <remove-project name="LineageOS/android_packages_resources_devicesettings"/>
- <project path="packages/resources/devicesettings" name="packages_resources_devicesettings" remote="evx" revision="tiramisu"/>
- <remove-project name="RiceDroid/android_frameworks_base"/>
- <remove-project name="LineageOS/android_hardware_lineage_compat"/>
- <project path="frameworks/base" name="android_frameworks_base" remote="hsx" revision="13mod"/>
- <project path="hardware/xiaomi" name="hardware_xiaomi" remote="evx" revision="tiramisu"/>
- </manifest>
+ <remove-project name="RiceDroid/android_vendor_rice"/>
+ <project path="vendor/lineage" name="android_vendor_rice" remote="hsx" revision="tiramisu"/>
+</manifest>
