@@ -15,5 +15,5 @@
  <project path="kernel/xiaomi/spes" name="kernel_xiaomi_spes_header" remote="jb" revision="12"  clone-depth="1"/>
 
 <!-- Additional required repos -->
- <remove-project name="RiceDroid/android_vendor_rice"/>
+ <remove-project name="hardware_google_pixel"/>
  </manifest>
