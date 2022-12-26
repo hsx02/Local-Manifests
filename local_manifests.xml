@@ -19,4 +19,6 @@
  <project path="kernel/xiaomi/spes" name="kernel_xiaomi_spes_header" remote="jb" revision="12"  clone-depth="1"/>
 
  <project path="prebuilts/clang/host/linux-x86/clang-r450784d" name="clang-r450784d" remote="clang" revision="master" clone-depth="1" />
- </manifest>
+ <remove-project name="platform/hardware/google/pixel"/>
+ <project path="hardware/google/pixel" name="dxspes" remote="hsx" revision="hardware/google/pixel"  clone-depth="1"/>
+</manifest>
