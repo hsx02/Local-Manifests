@@ -20,5 +20,5 @@
 
  <project path="prebuilts/clang/host/linux-x86/clang-r450784d" name="clang-r450784d" remote="clang" revision="master" clone-depth="1" />
  <remove-project name="platform/hardware/google/pixel"/>
- <project path="hardware/google/pixel" name="dxspes" remote="hsx" revision="hardware/google/pixel"  clone-depth="1"/>
+ <project path="hardware/google/pixel" name="dxspes" remote="hsx" revision="hardware/google/pixel"/>
 </manifest>
