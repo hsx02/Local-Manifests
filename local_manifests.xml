@@ -10,7 +10,13 @@
 <remote  name="evx"
            fetch="https://github.com/Evolution-X" /> 
 
+<remote name="clang"
+           fetch="https://gitlab.com/Amritorock" />
+
  <project path="device/xiaomi/spes" name="dxspes" remote="hsx" revision="los_test"/>
  <project path="vendor/xiaomi/spes" name="vxspes" remote="hsx" revision="test3"/>
  <project path="kernel/xiaomi/spes" name="kernel_xiaomi_spes_header" remote="jb" revision="12"  clone-depth="1"/>
+
+<!-- (Clang) -->
+  <project path="prebuilts/clang/host/linux-x86/clang-r450784d" name="clang-r450784d" remote="clang" revision="master" clone-depth="1" />
 </manifest>
