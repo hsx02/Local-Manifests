@@ -22,4 +22,8 @@
  <project path="prebuilts/clang/host/linux-x86/clang-r468909b" name="aosp-clang" remote="me-lab" revision="clang-15.0.3" />
  <project path="prebuilts/clang/host/linux-x86/clang-r450784d" name="aosp-clang" remote="me-lab" revision="clang-14.0.6" />
  <project path="hardware/xiaomi" name="hardware_xiaomi" remote="evx" revision="tiramisu"/>
+ 
+ <remove-project name="LineageOS/android_hardware_google_pixel"/>
+ <project path="hardware/google/pixel" name="android_hardware_google_pixel" remote="hsx" revision="lineage-20.0"/>
+
 </manifest>
