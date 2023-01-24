@@ -25,5 +25,3 @@
  <remove-project name="platform/hardware/google/pixel"/>
  <project path="hardware/google/pixel" name="hardware_google_pixel" remote="hsx" revision="thirteen"/>
 </manifest>
-
-</manifest>
