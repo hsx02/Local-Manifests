@@ -23,4 +23,6 @@
  <remove-project name="LineageOS/android_hardware_qcom_bootctrl"/>
  <project path="hardware/qcom-caf/bootctrl" name="android_hardware_qcom_bootctrl" remote="arrow" revision="arrow-12.1-caf"/>
 
+ <remove-project name="LineageOS/android_hardware_google_pixel"/>
+ <project path="hardware/google/pixel" name="hardware_google_pixel" remote="hsx" revision="thirteen"/>
 </manifest>
