@@ -7,23 +7,20 @@
 <remote  name="jb"
            fetch="https://github.com/Jabiyeff" /> 
 
-<remote  name="evx"
-           fetch="https://github.com/Evolution-X" /> 
+<remote  name="arrow"
+           fetch="https://github.com/ArrowOS" /> 
 
 <remote name="me-lab"
             fetch="https://gitlab.com/anandhan07/"
             clone-depth="1" />
 
- <project path="device/xiaomi/spes" name="dxspes" remote="hsx" revision="test5"/>
+ <project path="device/xiaomi/spes" name="dxspes" remote="hsx" revision="rice-new"/>
  <project path="vendor/xiaomi/spes" name="vxspes" remote="hsx" revision="test3"/>
  <project path="kernel/xiaomi/spes" name="kernel_xiaomi_spes_header" remote="jb" revision="12"  clone-depth="1"/>
 
 <!-- (Clang) -->
- <project path="prebuilts/clang/host/linux-x86/clang-r468909b" name="aosp-clang" remote="me-lab" revision="clang-15.0.3" />
- <project path="prebuilts/clang/host/linux-x86/clang-r450784d" name="aosp-clang" remote="me-lab" revision="clang-14.0.6" />
- <project path="hardware/xiaomi" name="hardware_xiaomi" remote="evx" revision="tiramisu"/>
- 
- <remove-project name="LineageOS/android_hardware_google_pixel"/>
- <project path="hardware/google/pixel" name="android_hardware_google_pixel" remote="hsx" revision="lineage-20.0"/>
+  <project path="prebuilts/clang/host/linux-x86/clang-r450784d" name="aosp-clang" remote="me-lab" revision="clang-14.0.6" />
+ <remove-project name="LineageOS/android_hardware_qcom_bootctrl"/>
+ <project path="hardware/qcom-caf/bootctrl" name="android_hardware_qcom_bootctrl" remote="arrow" revision="arrow-12.1-caf"/>
 
 </manifest>
