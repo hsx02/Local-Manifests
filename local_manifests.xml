@@ -18,7 +18,7 @@
             fetch="https://gitlab.com/anandhan07/"
             clone-depth="1" />
 
- <project path="device/xiaomi/spes" name="dxspes" remote="hsx" revision="evo-new"/>
+ <project path="device/xiaomi/spes" name="dxspes" remote="hsx" revision="evo-new1"/>
  <project path="vendor/xiaomi/spes" name="android_vendor_xiaomi_spes" remote="jb" revision="13.0"/>
  <project path="kernel/xiaomi/spes" name="kernel_xiaomi_spes_header" remote="jb" revision="12"  clone-depth="1"/>
 
