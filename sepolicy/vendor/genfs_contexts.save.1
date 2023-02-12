@@ -17,7 +17,25 @@ genfscon sysfs /devices/platform/soc/soc:qcom,dsi-display-primary               
 genfscon sysfs /devices/platform/soc/soc:qcom,gpubw                                                 u:object_r:sysfs_msm_subsys:s0
 genfscon sysfs /devices/platform/soc/soc:qcom,gpubw/devfreq
 
+# Health
+genfscon sysfs /class/power_supply/battery/capacity                                                 u:object_r:vendor_sysfs_battery_supply:s0
+genfscon sysfs /class/power_supply/bms/charge_counter                                               u:object_r:vendor_sysfs_battery_supply:sgenfscon sysfs /devices/platform/soc/4a84000.i2c/i2c-0/0-0066/max77729-fuelgauge/power_supply/bms   u:object_r:vendor_sysfs_battery_supply:s0
+genfscon sysfs /devices/platform/soc/4a84000.i2c/i2c-0/0-0066/max77729-fuelgauge/power_supply/bms/charge_counter  u:object_r:vendor_sysfs_battery_supply:s0
+genfscon sysfs /devices/platform/soc/4a84000.i2c/i2c-0/0-0066/max77729-fuelgauge/power_supply/bms/charge_full     u:object_r:vendor_sysfs_battery_supply:s0
+genfscon sysfs /devices/platform/soc/4a84000.i2c/i2c-0/0-0066/max77729-fuelgauge/power_supply/bms/cycle_count     u:object_r:vendor_sysfs_battery_supply:s0
+genfscon sysfs /devices/platform/soc/4a84000.i2c/i2c-0/0-0071/power_supply/bms                      u:object_r:vendor_sysfs_battery_supply:s0
+genfscon sysfs /devices/platform/soc/4a84000.i2c/i2c-0/0-0071/power_supply/bms/charge_counter       u:object_r:vendor_sysfs_battery_supply:s0
+genfscon sysfs /devices/platform/soc/4a84000.i2c/i2c-0/0-0071/power_supply/bms/charge_full          u:object_r:vendor_sysfs_battery_supply:s0
+genfscon sysfs /devices/platform/soc/4a84000.i2c/i2c-0/0-0071/power_supply/bms/cycle_count          u:object_r:vendor_sysfs_battery_supply:s0
+genfscon sysfs /devices/platform/soc/soc:qcom,nopmi-chg/power_supply/battery                        u:object_r:vendor_sysfs_battery_supply:s0
+genfscon sysfs /devices/platform/soc/soc:qcom,nopmi-chg/power_supply/battery/charge_counter         u:object_r:vendor_sysfs_battery_supply:s0
+genfscon sysfs /devices/platform/soc/soc:qcom,nopmi-chg/power_supply/battery/charge_full            u:object_r:vendor_sysfs_battery_supply:s0
+genfscon sysfs /devices/platform/soc/soc:qcom,nopmi-chg/power_supply/battery/cycle_count            u:object_r:vendor_sysfs_battery_supply:s0
+genfscon sysfs /devices/platform/soc/soc:maxim_ds28e16/power_supply/batt_verify                     u:object_r:vendor_sysfs_battery_supply:s0
+genfscon sysfs /devices/platform/soc/soc:qcom,nopmi-chg/power_supply/usb/real_type                  u:object_r:vendor_sysfs_battery_supply:s0
 
+# kmsg
+genfscon proc /last_kmsg                                                                            u:object_r:proc_last_kmsg:s0
 
 # Memory
 genfscon sysfs /devices/platform/soc/4804000.ufshc/host0/target0:0:0/0:0:0:0/                       u:object_r:vendor_sysfs_memory:s0

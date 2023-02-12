@@ -5,9 +5,9 @@
 #
 
 PRODUCT_MAKEFILES := \
-    $(LOCAL_DIR)/superior_spes.mk
+    $(LOCAL_DIR)/evolution_spes.mk
 
 COMMON_LUNCH_CHOICES := \
-    superior_spes-user \
-    superior_spes-userdebug \
-    superior_spes-eng
+    evolution_spes-user \
+    evolution_spes-userdebug \
+    evolution_spes-eng
