@@ -24,8 +24,8 @@
             fetch="https://gitlab.com/anandhan07/"
             clone-depth="1" />
 
- <project path="device/xiaomi/spes" name="device_spes-test-ag" remote="hsx" revision="aosp"/>
- <project path="vendor/xiaomi/spes" name="vendor_spes-test-ag" remote="hsx" revision="main"/>
+ <project path="device/xiaomi/spes" name="android_device_xiaomi_spes" remote="hsx" revision="13.1.1-aosp"/>
+ <project path="vendor/xiaomi/spes" name="vt-exp" remote="hsx" revision="13.0"/>
  <project path="kernel/xiaomi/spes" name="kernel_xiaomi_spes_header" remote="jb" revision="12"  clone-depth="1"/>
 
  <remove-project name="LineageOS/android_hardware_lineage_compat"/>
