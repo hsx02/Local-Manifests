@@ -32,9 +32,9 @@
  <remove-project name="LineageOS/android_hardware_qcom_bootctrl"/>
  <project path="hardware/qcom-caf/bootctrl" name="android_hardware_qcom_bootctrl" remote="aro" revision="arrow-13.0-caf"/>
  <remove-project name="LineageOS/android_hardware_google_pixel"/>
- <project path="hardware/google/pixel" name="android_hardware_google_pixel" remote="hsx" revision="lineage-20"/>
+ <project path="hardware/google/pixel" name="android_hardware_google_pixel" remote="hsx" revision="lineage-20.0"/>
 
 
- <project path="hardware/xiaomi" name="android_hardware_xiaomi" remote="line" revision="lineage-20.0"/>
+ <project path="hardware/xiaomi" name="android_hardware_xiaomi" remote="line" revision="lineage-20"/>
  <project path="prebuilts/clang/host/linux-x86/clang-r450784d" name="aosp-clang" remote="me-lab" revision="clang-14.0.6" />
 </manifest>
