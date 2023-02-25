@@ -25,7 +25,7 @@
  <project path="vendor/xiaomi/spes" name="vendor_spes-test-ag" remote="hsx" revision="main"/>
  <project path="kernel/xiaomi/spes" name="kernel_xiaomi_spes_header" remote="jb" revision="12"  clone-depth="1"/>
 
- remove-project name="android_hardware_lineage_compat"/>
+ <remove-project name="android_hardware_lineage_compat"/>
  <remove-project name="platform/hardware/google/pixel"/>
  <project path="hardware/google/pixel" name="android_hardware_google_pixel" remote="hsx" revision="lineage-20.0"/>
 
