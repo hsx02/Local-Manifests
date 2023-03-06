@@ -21,8 +21,8 @@
 <remote  name="aro"
            fetch="https://github.com/ArrowOS" /> 
 
- <project path="device/xiaomi/spes" name="dt" remote="hsx" revision="13n2"/>
- <project path="vendor/xiaomi/spes" name="dt" remote="hsx" revision="13n-vt"/>
+ <project path="device/xiaomi/spes" name="device_xiaomi_spes" remote="hsx" revision="evox-13.0"/>
+ <project path="vendor/xiaomi/spes" name="vendor_xiaomi_spes" remote="hsx" revision="lineage-20.0"/>
  <project path="kernel/xiaomi/spes" name="kernel_xiaomi_spes_header" remote="jb" revision="12"  clone-depth="1"/>
 
  <remove-project name="android_hardware_lineage_compat"/>
@@ -32,8 +32,6 @@
  <remove-project name="android_hardware_qcom_bootctrl"/>
  <project path="hardware/qcom-caf/bootctrl" name="android_hardware_qcom_bootctrl" remote="aro" revision="arrow-13.0-caf"/>
 
- <remove-project name="packages_apps_Settings"/>
- <project path="packages/apps/Settings" name="Evo_Settings" remote="hsx" revision="13n"/>
 
  <project path="prebuilts/clang/host/linux-x86/clang-r450784d" name="aosp-clang" remote="me-lab" revision="clang-14.0.6" />
 </manifest>
