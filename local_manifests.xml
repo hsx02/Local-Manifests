@@ -1,8 +1,3 @@
-
-	
-<?xml version="1.0" encoding="UTF-8"?>
-<manifest>
-	
 <remote  name="hsx"
            fetch="https://github.com/hsx02" /> 
            
@@ -63,18 +58,3 @@
 
  <project path="prebuilts/clang/host/linux-x86/clang-r450784d" name="aosp-clang" remote="me-lab" revision="clang-14.0.6" />
 </manifest>
-
-
-
-
-
-
-
-
-
-
-
-	
-
-	
-
