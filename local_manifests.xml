@@ -1,42 +1,17 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<manifest>
-	
-<remote  name="hsx"
-           fetch="https://github.com/hsx02" /> 
-
-<remote  name="jb"
-           fetch="https://github.com/Jabiyeff" /> 
-
-<remote  name="evx"
-           fetch="https://github.com/Evolution-X" /> 
-
-<remote name="clang"
-            fetch="https://gitlab.com/Amritorock/"
-            clone-depth="1" />
-
-<remote name="me-lab"
-            fetch="https://gitlab.com/anandhan07/"
-            clone-depth="1" />
-
-<remote  name="aro"
-           fetch="https://github.com/ArrowOS" /> 
-
- <project path="device/xiaomi/spes" name="device_xiaomi_spes" remote="hsx" revision="evox-13.0"/>
- <project path="vendor/xiaomi/spes" name="vendor_xiaomi_spes" remote="hsx" revision="lineage-20.0"/>
- <project path="kernel/xiaomi/spes" name="kernel_xiaomi_spes_header" remote="jb" revision="12"  clone-depth="1"/>
-
- <remove-project name="android_hardware_lineage_compat"/>
- <remove-project name="platform/hardware/google/pixel"/>
- <project path="hardware/google/pixel" name="android_hardware_google_pixel" remote="hsx" revision="lineage-20.0"/>
-
- <remove-project name="android_hardware_qcom_bootctrl"/>
- <project path="hardware/qcom-caf/bootctrl" name="android_hardware_qcom_bootctrl" remote="aro" revision="arrow-13.0-caf"/>
-
-	
-<remove-project name="android_hardware_qcom_thermal"/>
- <project path="hardware/qcom-caf/thermal" name="hardware_qcom_thermal" remote="hsx" revision="topaz"/>
 
 	
 
- <project path="prebuilts/clang/host/linux-x86/clang-r450784d" name="aosp-clang" remote="me-lab" revision="clang-14.0.6" />
-</manifest>
+
+
+
+
+
+
+
+
+
+
+	
+
+	
+
