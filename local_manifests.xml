@@ -17,13 +17,11 @@
            fetch="https://gitlab.pixelexperience.org/android/vendor-blobs"
            clone-depth="1" />
 
-<remote name="me-lab"
-            fetch="https://gitlab.com/anandhan07/"
-            clone-depth="1" />
-           
+<remote name="clang"
+                fetch="https://gitlab.com/Amritorock" />
            
  <!-- Me-Beginner -->           
- <project path="device/xiaomi/spes" name="dxspes" remote="hsx" revision="evox-13.0"/>
+  <project path="device/xiaomi/spes" name="device_xiaomi_spes" remote="hsx" revision="new-evo"/>
  <project path="vendor/aosp/config" name="vendor_aosp_config" remote="hsx" revision="main"/>
 
  
@@ -59,5 +57,5 @@
  <project path="vendor/xiaomi/spes" name="vendor_xiaomi_spes" remote="pxl-blob-gitlab" revision="thirteen"/>
 
 
- <project path="prebuilts/clang/host/linux-x86/clang-r450784d" name="aosp-clang" remote="me-lab" revision="clang-14.0.6" />
+ <project path="prebuilts/clang/host/linux-x86/clang-r450784d" name="clang-r450784d" remote="clang" revision="master" clone-depth="1" />
 </manifest>
