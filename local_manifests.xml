@@ -16,7 +16,8 @@
            fetch="https://github.com/CHRISL7" />
            
 <remote  name="pxl-blob-gitlab"
-           fetch="https://gitlab.pixelexperience.org" />
+           fetch="https://gitlab.pixelexperience.org/android/vendor-blobs"
+           clone-depth="1" />
 
 <remote name="me-lab"
             fetch="https://gitlab.com/anandhan07/"
@@ -56,7 +57,7 @@
  
  
  <!-- PixelExperience-blobs-gitlab -->
- <project path="vendor/xiaomi/spes" name="android/vendor-blobs/vendor_xiaomi_spes" remote="pxl-blob-gitlab" revision="thirteen"/>
+ <project path="vendor/xiaomi/spes" name="vendor_xiaomi_spes" remote="pxl-blob-gitlab" revision="thirteen"/>
 
 
  <project path="prebuilts/clang/host/linux-x86/clang-r450784d" name="aosp-clang" remote="me-lab" revision="clang-14.0.6" />
