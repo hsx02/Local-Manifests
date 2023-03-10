@@ -1,5 +1,66 @@
 
 	
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+	
+<remote  name="hsx"
+           fetch="https://github.com/hsx02" /> 
+           
+<remote  name="pxl"
+           fetch="https://github.com/PixelExperience" />   
+           
+<remote  name="pxl-devices"
+           fetch="https://github.com/PixelExperience-Devices" />
+           
+<remote  name="chrisl7"
+           fetch="https://github.com/CHRISL7" />
+           
+<remote  name="pxl-blob-gitlab"
+           fetch="https://gitlab.pixelexperience.org" />
+
+<remote name="me-lab"
+            fetch="https://gitlab.com/anandhan07/"
+            clone-depth="1" />
+           
+           
+ <!-- Me-Beginner -->           
+ <project path="device/xiaomi/spes" name="dxspes" remote="hsx" revision="evox-13.0"/>
+ 
+ 
+ <!-- PixelExperience-Devices -->
+ <project path="device/xiaomi/spes-kernel" name="device_xiaomi_spes-kernel" remote="pxl-devices" revision="thirteen"/>
+ <project path="kernel/xiaomi/spes" name="kernel_xiaomi_spes" remote="pxl-devices" revision="thirteen"/>
+ <project path="device/qcom/wlan" name="device_qcom_wlan" remote="pxl-devices" revision="thirteen"/>
+ <project path="device/qcom/qssi" name="device_qcom_qssi" remote="pxl-devices" revision="thirteen"/>
+ <project path="device/qcom/vendor-common" name="device_qcom_vendor-common" remote="pxl-devices" revision="thirteen"/>
+ 
+  
+ <!-- Pro-dev-Chrisl7 -->
+ <remove-project name="platform/hardware/st/nfc"/> 
+ <project path="hardware/st/nfc" name="hardware_st_nfc" remote="chrisl7" revision="topaz"/>
+ <project path="hardware/qcom-caf/bengal/audio" name="hardware_qcom-caf_sm8250-common_audio-1" remote="chrisl7" revision="thirteen"/>
+ <project path="hardware/qcom-caf/bengal/display" name="hardware_qcom-caf_sm8150-common_display" remote="chrisl7" revision="twelve"/>
+ <project path="vendor/qcom/common" name="proprietary_vendor_qcom_common" remote="chrisl7" revision="thirteen"/>
+ 
+ 
+ <!-- PixelExperience-main -->
+ <project path="vendor/qcom/opensource/commonsys-intf/bluetooth" name="vendor_qcom_opensource_commonsys-intf_bluetooth" remote="pxl" revision="thirteen"/>
+ <project path="vendor/qcom/opensource/commonsys/dpm" name="vendor_qcom_opensource_commonsys_dpm" remote="pxl" revision="thirteen"/>
+ <project path="vendor/qcom/opensource/core-utils" name="vendor_qcom_opensource_core-utils" remote="pxl" revision="thirteen"/>
+ 
+ <remove-project name="packages_resources_devicesettings"/>
+ <project path="packages/resources/devicesettings" name="packages_resources_devicesettings" remote="pxl" revision="thirteen"/>
+ 
+ <remove-project name="android_vendor_qcom_opensource_interfaces"/>
+ <project path="vendor/qcom/opensource/interfaces" name="vendor_qcom_opensource_interfaces" remote="pxl" revision="thirteen"/>
+ 
+ 
+ <!-- PixelExperience-blobs-gitlab -->
+ <project path="vendor/xiaomi/spes" name="android/vendor-blobs/vendor_xiaomi_spes" remote="pxl-blob-gitlab" revision="thirteen"/>
+
+
+ <project path="prebuilts/clang/host/linux-x86/clang-r450784d" name="aosp-clang" remote="me-lab" revision="clang-14.0.6" />
+</manifest>
 
 
 
