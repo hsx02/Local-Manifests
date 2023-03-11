@@ -21,7 +21,7 @@
                 fetch="https://gitlab.com/Amritorock" />
            
  <!-- Me-Beginner -->           
-  <project path="device/xiaomi/spes" name="device_xiaomi_spes" remote="hsx" revision="new-evo"/>
+  <project path="device/xiaomi/spes" name="device_xiaomi_spes" remote="hsx" revision="evo-new"/>
  <project path="vendor/aosp/config" name="vendor_aosp_config" remote="hsx" revision="main"/>
 
  
