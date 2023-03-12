@@ -36,7 +36,7 @@
  <!-- Pro-dev-Chrisl7 -->
  <remove-project name="platform/hardware/st/nfc"/> 
  <project path="hardware/st/nfc" name="hardware_st_nfc" remote="chrisl7" revision="topaz"/>
- <project path="hardware/qcom-caf/bengal/audio" name="hardware_qcom-caf_sm8250-common_audio-1" remote="chrisl7" revision="thirteen"/>
+ <project path="hardware/qcom-caf/bengal/audio" name="hardware_qcom-caf_sm8150-common_audio" remote="chrisl7" revision="thirteen"/>
  <project path="hardware/qcom-caf/bengal/display" name="hardware_qcom-caf_sm8150-common_display" remote="chrisl7" revision="twelve"/>
  <project path="vendor/qcom/common" name="proprietary_vendor_qcom_common" remote="chrisl7" revision="thirteen"/>
  
