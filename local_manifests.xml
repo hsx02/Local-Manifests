@@ -21,7 +21,7 @@
                 fetch="https://gitlab.com/Amritorock" />
            
  <!-- Me-Beginner -->           
-  <project path="device/xiaomi/spes" name="device_xiaomi_spes" remote="hsx" revision="evo-new"/>
+ <project path="device/xiaomi/spes" name="device_xiaomi_spes" remote="hsx" revision="evo-new"/>
  <project path="vendor/aosp/config" name="vendor_aosp_config" remote="hsx" revision="main"/>
 
  
@@ -31,34 +31,28 @@
  <project path="device/qcom/wlan" name="device_qcom_wlan" remote="pxl-devices" revision="thirteen"/>
  <project path="device/qcom/qssi" name="device_qcom_qssi" remote="pxl-devices" revision="thirteen"/>
  <project path="device/qcom/vendor-common" name="device_qcom_vendor-common" remote="pxl-devices" revision="thirteen"/>
- 
+ <project path="device/qcom/common" name="device_qcom_common" remote="pxl-devices" revision="thirteen"/>
   
  <!-- Pro-dev-Chrisl7 -->
  <remove-project name="platform/hardware/st/nfc"/> 
  <project path="hardware/st/nfc" name="hardware_st_nfc" remote="chrisl7" revision="topaz"/>
-
- <project path="vendor/qcom/common" name="proprietary_vendor_qcom_common" remote="chrisl7" revision="thirteen"/>
- 
  
  <!-- PixelExperience-main -->
  <project path="vendor/qcom/opensource/commonsys-intf/bluetooth" name="vendor_qcom_opensource_commonsys-intf_bluetooth" remote="pxl" revision="thirteen"/>
  <project path="vendor/qcom/opensource/commonsys/dpm" name="vendor_qcom_opensource_commonsys_dpm" remote="pxl" revision="thirteen"/>
  <project path="vendor/qcom/opensource/core-utils" name="vendor_qcom_opensource_core-utils" remote="pxl" revision="thirteen"/>
+ <!-- Hals -->		
+ <project path="hardware/qcom-caf/bengal/display" name="hardware_qcom-caf_bengal_display" remote="pxl" revision="thirteen"/>
+ <project path="hardware/qcom-caf/bengal/audio" name="hardware_qcom-caf_bengal_audio" remote="pxl" revision="thirteen"/>	
+ <project path="hardware/qcom-caf/bengal/media" name="hardware_qcom-caf_bengal_media" remote="pxl" revision="thirteen"/>
+ <project path="hardware/qcom-caf/bengal/gps" name="hardware_qcom-caf_bengal_gps" remote="pxl" revision="thirteen"/>
  
  <remove-project name="packages_resources_devicesettings"/>
  <project path="packages/resources/devicesettings" name="packages_resources_devicesettings" remote="pxl" revision="thirteen"/>
  
- <remove-project name="android_vendor_qcom_opensource_fm-commonsys"/>
- <project path="vendor/qcom/opensource/fm-commonsys" name="android_vendor_qcom_opensource_fm-commonsys" remote="hsx" revision="lineage-20.0"/>
- 
-           
- <remove-project name="android_vendor_qcom_opensource_interfaces"/>
- <project path="vendor/qcom/opensource/interfaces" name="vendor_qcom_opensource_interfaces" remote="pxl" revision="thirteen"/>
- 
- 
  <!-- PixelExperience-blobs-gitlab -->
  <project path="vendor/xiaomi/spes" name="vendor_xiaomi_spes" remote="pxl-blob-gitlab" revision="thirteen"/>
-
-
  <project path="prebuilts/clang/host/linux-x86/clang-r450784d" name="clang-r450784d" remote="clang" revision="master" clone-depth="1" />
+ <project path="vendor/qcom/common" name="vendor_qcom_common" remote="pxl-blob-gitlab" revision="thirteen"/>
+ 
 </manifest>
