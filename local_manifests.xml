@@ -49,6 +49,10 @@
  <remove-project name="packages_resources_devicesettings"/>
  <project path="packages/resources/devicesettings" name="packages_resources_devicesettings" remote="pxl" revision="thirteen"/>
  
+ <remove-project name="android_vendor_qcom_opensource_fm-commonsys"/>
+ <project path="vendor/qcom/opensource/fm-commonsys" name="android_vendor_qcom_opensource_fm-commonsys" remote="hsx" revision="lineage-20.0"/>
+ 
+           
  <remove-project name="android_vendor_qcom_opensource_interfaces"/>
  <project path="vendor/qcom/opensource/interfaces" name="vendor_qcom_opensource_interfaces" remote="pxl" revision="thirteen"/>
  
