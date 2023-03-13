@@ -22,8 +22,7 @@
            
  <!-- Me-Beginner -->           
  <project path="device/xiaomi/spes" name="device_xiaomi_spes" remote="hsx" revision="evo-new"/>
- <project path="vendor/aosp/config" name="vendor_aosp_config" remote="hsx" revision="main"/>
- 
+
  <!-- PixelExperience-Devices -->
  <project path="device/xiaomi/spes-kernel" name="device_xiaomi_spes-kernel" remote="pxl-devices" revision="thirteen"/>
  <project path="kernel/xiaomi/spes" name="kernel_xiaomi_spes" remote="pxl-devices" revision="thirteen"/>
