@@ -19,6 +19,8 @@
             fetch="https://gitlab.com/anandhan07/"
             clone-depth="1" />
 
+<remote name="ImSurajxD"
+                fetch="https://gitlab.com/ImSurajxD" />
 <remote  name="aro"
            fetch="https://github.com/ArrowOS" /> 
 
@@ -27,5 +29,5 @@
  <project path="vendor/xiaomi/sm6225-common" name="vendor_xiaomi_sm6225-common" remote="aga" revision="13"/>
  <project path="kernel/xiaomi/sm6225-common" name="kernel_xiaomi_sm6225-common" remote="aga" revision="13"  clone-depth="1"/>
  
-
+<project path="prebuilts/clang/host/linux-x86/clang-r450784d" name="clang-r450784d" remote="ImSurajxD" revision="master" />
 </manifest>
