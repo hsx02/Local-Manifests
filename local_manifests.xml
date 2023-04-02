@@ -28,5 +28,4 @@
  <project path="kernel/xiaomi/sm6225-common" name="kernel_xiaomi_sm6225-common" remote="aga" revision="13"  clone-depth="1"/>
  
 
- <project path="prebuilts/clang/host/linux-x86/clang-r450784d" name="aosp-clang" remote="me-lab" revision="clang-14.0.6" />
 </manifest>
