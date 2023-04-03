@@ -24,9 +24,11 @@
 <remote  name="aro"
            fetch="https://github.com/ArrowOS" /> 
 
- <project path="device/xiaomi/spes" name="device_xiaomi_spes" remote="hsx" revision="test4"/>
- <project path="device/xiaomi/spes/sm6225-common" name="device_xiaomi_sm6225-common" remote="aga" revision="13"/>
+ <project path="device/xiaomi/spes" name="device_xiaomi_spes-aga" remote="hsx" revision="test4"/>
+ <project path="device/xiaomi/sm6225-common" name="device_xiaomi_sm6225-common" remote="aga" revision="13"/>
  <project path="vendor/xiaomi/sm6225-common" name="vendor_xiaomi_sm6225-common" remote="aga" revision="13"/>
+<project path="vendor/xiaomi/spes" name="vendor_xiaomi_spes" remote="aga" revision="13"/>
+ 
  <project path="kernel/xiaomi/sm6225-common" name="kernel_xiaomi_sm6225-common" remote="aga" revision="13"  clone-depth="1"/>
  
 <project path="prebuilts/clang/host/linux-x86/clang-r450784d" name="clang-r450784d" remote="ImSurajxD" revision="master" />
