@@ -1,13 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
-
-
+	
 <remote  name="hsx"
            fetch="https://github.com/hsx02" /> 
-          
-           <remote  name="aga"
-           fetch="https://github.com/Agatha-Prjkt" /> 
-           
+
+<remote  name="jb"
+           fetch="https://github.com/Jabiyeff" /> 
+
 <remote  name="evx"
            fetch="https://github.com/Evolution-X" /> 
 
@@ -19,18 +18,23 @@
             fetch="https://gitlab.com/anandhan07/"
             clone-depth="1" />
 
+<remote  name="aro"
+           fetch="https://github.com/ArrowOS" />
+           
 <remote name="ImSurajxD"
                 fetch="https://gitlab.com/ImSurajxD" />
-<remote  name="aro"
-           fetch="https://github.com/ArrowOS" /> 
+           
 
- <project path="device/xiaomi/spes" name="testt" remote="hsx" revision="dt"/>
- <project path="device/xiaomi/sm6225-common" name="testt" remote="hsx" revision="sm6225-common-dt"/>
- <project path="vendor/xiaomi/sm6225-common" name="testt" remote="hsx" revision="sm6225-common-vt"/>
-<project path="vendor/xiaomi/spes" name="testt" remote="hsx" revision="vt"/>
- 
- <project path="kernel/xiaomi/sm6225-common" name="kernel_xiaomi_sm6225-common" remote="aga" revision="13"  clone-depth="1"/>
-  <remove-project name="platform/hardware/google/pixel"/>
+ <project path="device/xiaomi/spes" name="android_vendor_xiaomi_spes" remote="jb" revision="13.0"/>
+ <project path="vendor/xiaomi/spes" name="android_device_xiaomi_spes" remote="hsx" revision="13"/>
+ <project path="kernel/xiaomi/spes" name="kernel_xiaomi_spes_header" remote="jb" revision="12"  clone-depth="1"/>
+
+ <remove-project name="android_hardware_lineage_compat"/>
+ <remove-project name="platform/hardware/google/pixel"/>
  <project path="hardware/google/pixel" name="android_hardware_google_pixel" remote="hsx" revision="lineage-20.0"/>
-<project path="prebuilts/clang/host/linux-x86/clang-r450784d" name="clang-r450784d" remote="ImSurajxD" revision="master" />
-</manifest>
+
+ <remove-project name="android_hardware_qcom_bootctrl"/>
+ <project path="hardware/qcom-caf/bootctrl" name="android_hardware_qcom_bootctrl" remote="aro" revision="arrow-13.0-caf"/>
+ 
+ <project path="prebuilts/clang/host/linux-x86/clang-r450784d" name="clang-r450784d" remote="ImSurajxD" revision="master" />
+ </manifest>
