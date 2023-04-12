@@ -14,7 +14,7 @@
            fetch="https://github.com/ArrowOS" /> 
 
  <project path="device/xiaomi/spes" name="device_spes" remote="hsx" revision="test3"/>
- <project path="vendor/xiaomi/spes" name="vendor_spes" remote="hsx" revision="lineage-20.0"/>
+ <project path="vendor/xiaomi/spes" name="vendor_spes" remote="hsx" revision="test13"/>
  <project path="kernel/xiaomi/spes" name="kernel_xiaomi_spes_header" remote="jb" revision="12"  clone-depth="1"/>
            
  <remove-project name="android_hardware_lineage_compat"/> 	
