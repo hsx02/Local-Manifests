@@ -35,5 +35,5 @@
  <project path="hardware/xiaomi" name="android_hardware_xiaomi" remote="line" revision="lineage-20"/>
  <project path="prebuilts/clang/host/linux-x86/clang-r450784d" name="clang-r450784d" remote="ImSurajxD" revision="master" />
 
- </manifest
+ </manifest>
  
