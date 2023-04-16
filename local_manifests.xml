@@ -21,8 +21,8 @@
             clone-depth="1" />
 
 
- <project path="device/xiaomi/spes" name="device_spes" remote="hsx" revision="test1jb"/>
- <project path="vendor/xiaomi/spes" name="vendor_spes" remote="hsx" revision="test1jb"/>
+ <project path="device/xiaomi/spes" name="device_spes" remote="hsx" revision="test2jb"/>
+ <project path="vendor/xiaomi/spes" name="vendor_spes" remote="hsx" revision="test2jb"/>
  <project path="kernel/xiaomi/spes" name="kernel_xiaomi_spes_header" remote="jb" revision="12"  clone-depth="1"/>
 
  <remove-project name="LineageOS/android_hardware_lineage_compat"/>
