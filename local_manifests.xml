@@ -21,7 +21,7 @@
             clone-depth="1" />
 
 
- <project path="device/xiaomi/spes" name="device_spes" remote="hsx" revision="test10"/>
+ <project path="device/xiaomi/spes" name="device_spes" remote="hsx" revision="test14"/>
  <project path="vendor/xiaomi/spes" name="vendor_spes" remote="hsx" revision="test13"/>
  <project path="kernel/xiaomi/spes" name="kernel_xiaomi_spes_header" remote="jb" revision="12"  clone-depth="1"/>
 
