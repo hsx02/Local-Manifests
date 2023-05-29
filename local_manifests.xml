@@ -26,15 +26,15 @@
 
 	<remote name="ydev"
             fetch="https://github.com/yesidev" />
-            
-	
+     
+
 	<remote name="chris"
             fetch="https://github.com/CHRISL7" />
             
 
 
- <project path="device/xiaomi/spes" name="device_xiaomi_spes" remote="ydev" revision="Rising"/>
- <project path="vendor/xiaomi/spes" name="vendor_xiaomi_spes" remote="sjy" revision="13-merged"/>
+ <project path="device/xiaomi/spes" name="device_spes" remote="hsx" revision="test18"/>
+ <project path="vendor/xiaomi/spes" name="vendor_spes" remote="hsx" revision="test13"/>
  <project path="kernel/xiaomi/spes" name="kernel_xiaomi_spes_header" remote="jb" revision="12"  clone-depth="1"/>
  
  <remove-project name="LineageOS/android_hardware_lineage_compat"/>
