@@ -37,8 +37,7 @@
  <project path="vendor/xiaomi/spes" name="vendor_spes" remote="hsx" revision="test13"/>
  <project path="kernel/xiaomi/spes" name="kernel_xiaomi_spes_header" remote="jb" revision="12"  clone-depth="1"/>
 
- <project path="vendor/xiaomi/miuicamera" name="vendor_xiaomi_miuicamera" remote="pb" revision="main"/>
-	
+
  <remove-project name="LineageOS/android_hardware_lineage_compat"/>
  <remove-project name="LineageOS/android_hardware_qcom_bootctrl"/>
  <project path="hardware/qcom-caf/bootctrl" name="android_hardware_qcom_bootctrl" remote="aro" revision="arrow-13.1-caf"/>
