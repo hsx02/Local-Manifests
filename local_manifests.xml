@@ -33,8 +33,8 @@
             
  <project path="vendor/xiaomi/spes-miuicamera" name="android_vendor_xiaomi_spes-miuicamera" remote="sjy" revision="13"/>
 
- <project path="device/xiaomi/spes" name="device_spes" remote="hsx" revision="test18"/>
- <project path="vendor/xiaomi/spes" name="vendor_spes" remote="hsx" revision="test13"/>
+ <project path="device/xiaomi/spes" name="device_spes" remote="hsx" revision="test19"/>
+ <project path="vendor/xiaomi/spes" name="vendor_spes" remote="hsx" revision="test19"/>
  <project path="kernel/xiaomi/spes" name="kernel_xiaomi_spes_header" remote="jb" revision="12"  clone-depth="1"/>
 
 
