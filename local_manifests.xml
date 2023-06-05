@@ -1,4 +1,4 @@
-@@ -1,53 +1 @@
+
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
 
@@ -34,8 +34,8 @@
 
  <project path="vendor/xiaomi/spes-miuicamera" name="android_vendor_xiaomi_spes-miuicamera" remote="sjy" revision="13"/>
 
- <project path="device/xiaomi/spes" name="device_spes" remote="hsx" revision="test19"/>
- <project path="vendor/xiaomi/spes" name="vendor_spes" remote="hsx" revision="test19"/>
+ <project path="device/xiaomi/spes" name="android_device_xiaomi_spes" remote="hsx" revision="13"/>
+ <project path="vendor/xiaomi/spes" name="android_vendor_xiaomi_spes" remote="jb" revision="13.0"/>
  <project path="kernel/xiaomi/spes" name="kernel_xiaomi_spes_header" remote="jb" revision="12"  clone-depth="1"/>
 
 
