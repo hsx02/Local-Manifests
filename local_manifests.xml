@@ -35,8 +35,8 @@
  <project path="hardware/st/nfc" remote="github" name="PixelExperience/hardware_st_nfc" revision="thirteen"/>
 
 <!-- spes device tree dependencies: -->
-    <project path="device/xiaomi/spes" name="device_xiaomi_spes_chiris" revision="thirteen" remote="hsx" />    
-    <project path="device/xiaomi/sm6225-common" remote="github" name="TheMatheusDev/device_xiaomi_sm6225-common" revision="thirteen"/>
+    <project path="device/xiaomi/spes" remote="github" name="TheMatheusDev/device_xiaomi_spes" revision="thirteen"/>
+   <project path="device/xiaomi/sm6225-common" remote="github" name="TheMatheusDev/device_xiaomi_sm6225-common" revision="thirteen"/>
 <!-- ORIGINAL PE KERNEL BELOW!! -->
 <!-- <project path="device/xiaomi/spes-kernel" remote="github" name="PixelExperience-Devices/device_xiaomi_spes-kernel" revision="thirteen"/> -->
     <project path="device/xiaomi/spes-kernel" remote="github" name="TheMatheusDev/device_xiaomi_spes-kernel" revision="thirteen"/>  
