@@ -5,5 +5,45 @@
 <remote  name="hsx"
            fetch="https://github.com/hsx02" /> 
 
+<remote  name="jb"
+           fetch="https://github.com/Jabiyeff" /> 
 
-  </manifest>
+<remote  name="evx"
+           fetch="https://github.com/Evolution-X" /> 
+
+<remote  name="aro"
+           fetch="https://github.com/ArrowOS" /> 
+
+<remote  name="line"
+           fetch="https://github.com/LineageOS" /> 
+
+<remote name="ImSurajxD"
+            fetch="https://gitlab.com/ImSurajxD" />
+            clone-depth="1" />
+
+	<remote name="sjy"
+            fetch="https://github.com/shripad-jyothinath" />
+            clone-depth="1" />
+
+	<remote name="pb"
+            fetch="https://github.com/Positron-B" />
+
+	<remote name="chris"
+            fetch="https://github.com/CHRISL7" />
+
+ <project path="vendor/xiaomi/spes-miuicamera" name="android_vendor_xiaomi_spes-miuicamera" remote="sjy" revision="13"/>
+
+ <project path="device/xiaomi/spes" name="device_xiaomi_spes-1" remote="hsx" revision="13"/>
+ <project path="vendor/xiaomi/spes" name="vendor_xiaomi_spes" remote="etx" revision="release-t-july"/>
+ <project path="kernel/xiaomi/spes" name="kernel_xiaomi_spes_header" remote="jb" revision="12"  clone-depth="1"/>
+
+ <remove-project name="LineageOS/android_hardware_lineage_compat"/>
+ <remove-project name="LineageOS/android_hardware_qcom_bootctrl"/>
+ <project path="hardware/qcom-caf/bootctrl" name="android_hardware_qcom_bootctrl" remote="aro" revision="arrow-13.1-caf"/>
+ <remove-project name="LineageOS/android_hardware_google_pixel"/>
+ <project path="hardware/google/pixel" name="android_hardware_google_pixel" remote="hsx" revision="lineage-20.0"/>
+
+ <project path="hardware/xiaomi" name="hardware_xiaomi" remote="chris" revision="tirteen" />
+
+ <project path="prebuilts/clang/host/linux-x86/clang-r450784d" name="clang-r450784d" remote="ImSurajxD" revision="master" />
+ </manifest>
