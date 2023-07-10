@@ -5,50 +5,5 @@
 <remote  name="hsx"
            fetch="https://github.com/hsx02" /> 
 
-<remote name="gitlab-pe" fetch="https://gitlab.pixelexperience.org"></remote>
-
-<remote name="ImSurajxD"
-            fetch="https://gitlab.com/ImSurajxD" />
-            clone-depth="1" />
-
- <remove-project name="LineageOS/android_hardware_lineage_compat"/>
- <project path="hardware/xiaomi" name="hardware_xiaomi" remote="chris" revision="tirteen" />
-
- <project path="device/qcom/common" remote="github" name="PixelExperience-Devices/device_qcom_common" revision="thirteen"/>
- <project path="device/qcom/common-sepolicy" remote="github" name="PixelExperience-Devices/device_qcom_common-sepolicy" revision="thirteen"/>
- <project path="device/qcom/qssi" remote="github" name="PixelExperience-Devices/device_qcom_qssi" revision="thirteen"/>
- <project path="device/qcom/vendor-common" remote="github" name="PixelExperience-Devices/device_qcom_vendor-common" revision="thirteen"/>
- <project path="device/qcom/wlan" remote="github" name="PixelExperience-Devices/device_qcom_wlan" revision="thirteen"/>
-
- <project path="vendor/qcom/common" remote="gitlab-pe" name="android/vendor-blobs/vendor_qcom_common" revision="thirteen"/>
- <project path="vendor/qcom/opensource/commonsys-intf/bluetooth" remote="github" name="PixelExperience/vendor_qcom_opensource_commonsys-intf_bluetooth" revision="thirteen"/>
- <project path="vendor/qcom/opensource/core-utils" remote="github" name="PixelExperience/vendor_qcom_opensource_core-utils" revision="thirteen"/>
- <project path="vendor/qcom/opensource/commonsys/dpm" remote="github" name="PixelExperience/vendor_qcom_opensource_commonsys_dpm" revision="thirteen"/>
-
- <remove-project name="LineageOS/android_vendor_qcom_opensource_interfaces"/>
- <project path="vendor/qcom/opensource/interfaces" remote="github" name="PixelExperience/vendor_qcom_opensource_interfaces" revision="thirteen"/>
-
- <remove-project name="LineageOS/android_vendor_qcom_opensource_fm-commonsys"/>
-
-<!-- Source NFC -->
- <remove-project name="platform/hardware/st/nfc"/>
- <project path="hardware/st/nfc" remote="github" name="PixelExperience/hardware_st_nfc" revision="thirteen"/>
-
-<!-- spes device tree dependencies: -->
-    <project path="device/xiaomi/spes" remote="github" name="TheMatheusDev/device_xiaomi_spes" revision="thirteen"/>
-   <project path="device/xiaomi/sm6225-common" remote="github" name="TheMatheusDev/device_xiaomi_sm6225-common" revision="thirteen"/>
-<!-- ORIGINAL PE KERNEL BELOW!! -->
-<!-- <project path="device/xiaomi/spes-kernel" remote="github" name="PixelExperience-Devices/device_xiaomi_spes-kernel" revision="thirteen"/> -->
-    <project path="device/xiaomi/spes-kernel" remote="github" name="TheMatheusDev/device_xiaomi_spes-kernel" revision="thirteen"/>  
-    <project path="kernel/xiaomi/sm6225" remote="github" name="PixelExperience-Devices/kernel_xiaomi_sm6225" revision="thirteen"/>
-
-<!--    AOSPA vendor below!!! Used by Chris to test stuff!
-<project path="vendor/xiaomi" remote="github" name="CHRISL7/proprietary_vendor_xiaomi" revision="topaz"/> -->
-    
-    <project path="vendor/xiaomi/spes" remote="gitlab-pe" name="android/vendor-blobs/vendor_xiaomi_spes" revision="thirteen"/>
-    <project path="vendor/xiaomi/sm6225-common" remote="gitlab-pe" name="android/vendor-blobs/vendor_xiaomi_sm6225-common" revision="thirteen"/>
-
-<!-- Viper4Android Redesign -->
-    <project path="packages/apps/ViPER4AndroidFX" name="TogoFire/packages_apps_ViPER4AndroidFX" revision="v4a" remote="github" />
 
   </manifest>
