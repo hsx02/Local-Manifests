@@ -50,10 +50,7 @@
     <project path="vendor/xiaomi/spes" remote="gitlab-pe" name="android/vendor-blobs/vendor_xiaomi_spes" revision="thirteen"/>
     <project path="vendor/xiaomi/sm6225-common" remote="gitlab-pe" name="android/vendor-blobs/vendor_xiaomi_sm6225-common" revision="thirteen"/>
     
-    <!-- CUSTOM UNOFFICIAL OTA IMPLEMENTATION! -->
-    <remove-project name="packages_apps_Updates"/>
-    <project path="packages/apps/Updates" name="TheMatheusDev/packages_apps_Updates" revision="tiramisu" remote="github" />
-
+   
     <!-- Viper4Android Redesign -->
     <project path="packages/apps/ViPER4AndroidFX" name="TogoFire/packages_apps_ViPER4AndroidFX" revision="v4a" remote="github" />
 
