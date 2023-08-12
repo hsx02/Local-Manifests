@@ -1,11 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
  
- <remote  name="hsx"
-           fetch="https://github.com/hsx02" />
+ <remote  name="gitHub"
+           fetch="https://github.com" />
            	
-<manifest>
-  <remote name="gitlab-pe" fetch="https://gitlab.pixelexperience.org"></remote>
+  <remote name="gitlab-pe" fetch="https://gitlab.pixelexperience.org">
 
 
 <!-- QCOM/COMMON device and vendor dependecies -->
