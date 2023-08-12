@@ -4,24 +4,64 @@
  <remote  name="hsx"
            fetch="https://github.com/hsx02" />
            	
-<remote name="jb"
-                fetch="https://github.com/Jabiyeff" />
+<manifest>
+  <remote name="gitlab-pe" fetch="https://gitlab.pixelexperience.org"></remote>
 
- <remote name="ImSurajxD"
-                fetch="https://gitlab.com/ImSurajxD" />
-           
- <remote  name="aro"
-           fetch="https://github.com/ArrowOS" /> 
 
- <project path="device/xiaomi/spes" name="android_device_xiaomi_spes" remote="hsx" revision="13evo"/>
- <project path="vendor/xiaomi/spes" name="android_vendor_xiaomi_spes" remote="jb" revision="13.0"/>
- <project path="kernel/xiaomi/spes" name="kernel_xiaomi_spes_header" remote="jb" revision="12"  clone-depth="1"/>
- 
- <remove-project name="android_hardware_lineage_compat"/> 	
- <remove-project name="platform/hardware/google/pixel"/>
- <project path="hardware/google/pixel" name="android_hardware_google_pixel" remote="hsx" revision="aosp-r49"/>
- <remove-project name="android_hardware_qcom_bootctrl"/>
- <project path="hardware/qcom-caf/bootctrl" name="android_hardware_qcom_bootctrl" remote="aro" revision="arrow-13.1-caf"/>          
-           
- <project path="prebuilts/clang/host/linux-x86/clang-r450784d" name="clang-r450784d" remote="ImSurajxD" revision="master" />
- </manifest>
+<!-- QCOM/COMMON device and vendor dependecies -->
+    <remove-project name="PixelExperience-Devices/device_qcom_common"/>
+    <project path="device/qcom/common" remote="github" name="PixelExperience-Devices/device_qcom_common" revision="thirteen"/>
+    <project path="device/qcom/common-sepolicy" remote="github" name="PixelExperience-Devices/device_qcom_common-sepolicy" revision="thirteen"/>
+    <!-- THESE TWO ABOVE IS EVOLUTION-X SPECIFIC. YOU NEED TO CHANGE THE BELOW FILES TO YOUR MATCH YOUR ROM NAME! -->
+    <!-- device/qcom/common/common.mk, device/qcom/common-sepolicy/sepolicy_vndr-legacy/SEPolicy.mk -->
+    <project path="device/qcom/qssi" remote="github" name="PixelExperience-Devices/device_qcom_qssi" revision="thirteen"/>
+    <project path="device/qcom/vendor-common" remote="github" name="PixelExperience-Devices/device_qcom_vendor-common" revision="thirteen"/>
+    <project path="device/qcom/wlan" remote="github" name="PixelExperience-Devices/device_qcom_wlan" revision="thirteen"/>
+
+<!-- QCOM/COMMON Source dependencies -->
+    <project path="vendor/qcom/common" remote="gitlab-pe" name="android/vendor-blobs/vendor_qcom_common" revision="thirteen"/>
+    <project path="vendor/qcom/opensource/commonsys-intf/bluetooth" remote="github" name="PixelExperience/vendor_qcom_opensource_commonsys-intf_bluetooth" revision="thirteen"/>
+    <project path="vendor/qcom/opensource/core-utils" remote="github" name="PixelExperience/vendor_qcom_opensource_core-utils" revision="thirteen"/>
+    <project path="vendor/qcom/opensource/commonsys/dpm" remote="github" name="PixelExperience/vendor_qcom_opensource_commonsys_dpm" revision="thirteen"/>
+    <!-- <remove-project name="ArrowOS/android_vendor_qcom_opensource_healthd-ext" /> -->
+    <!-- <project path="vendor/qcom/opensource/healthd-ext" remote="github" name="PixelExperience/vendor_qcom_opensource_healthd-ext" revision="thirteen" /> -->
+
+    <remove-project name="android_vendor_qcom_opensource_interfaces"/>
+    <project path="vendor/qcom/opensource/interfaces" remote="github" name="PixelExperience/vendor_qcom_opensource_interfaces" revision="thirteen"/>
+
+    <remove-project name="android_vendor_qcom_opensource_fm-commonsys"/>
+
+    <!-- Source NFC -->
+    <remove-project name="platform/hardware/st/nfc"/>
+    <project path="hardware/st/nfc" remote="github" name="PixelExperience/hardware_st_nfc" revision="thirteen"/>
+
+    <!-- spes device tree dependencies: -->
+    <project path="device/xiaomi/spes" remote="github" name="TheMatheusDev/device_xiaomi_spes" revision="thirteen"/>
+    <project path="device/xiaomi/sm6225-common" remote="github" name="TheMatheusDev/device_xiaomi_sm6225-common" revision="thirteen"/>
+    <!-- ORIGINAL PE KERNEL BELOW!! -->
+    <!-- <project path="device/xiaomi/spes-kernel" remote="github" name="PixelExperience-Devices/device_xiaomi_spes-kernel" revision="thirteen"/> -->
+    <project path="device/xiaomi/spes-kernel" remote="github" name="TheMatheusDev/device_xiaomi_spes-kernel" revision="thirteen"/>
+    
+    <project path="kernel/xiaomi/sm6225" remote="github" name="PixelExperience-Devices/kernel_xiaomi_sm6225" revision="thirteen"/>
+
+    <!--    AOSPA vendor below!!! Used by Chris to test stuff!
+    <project path="vendor/xiaomi" remote="github" name="CHRISL7/proprietary_vendor_xiaomi" revision="topaz"/> -->
+    
+    <project path="vendor/xiaomi/spes" remote="gitlab-pe" name="android/vendor-blobs/vendor_xiaomi_spes" revision="thirteen"/>
+    <project path="vendor/xiaomi/sm6225-common" remote="gitlab-pe" name="android/vendor-blobs/vendor_xiaomi_sm6225-common" revision="thirteen"/>
+    
+    <!-- CUSTOM UNOFFICIAL OTA IMPLEMENTATION! -->
+    <remove-project name="packages_apps_Updates"/>
+    <project path="packages/apps/Updates" name="TheMatheusDev/packages_apps_Updates" revision="tiramisu" remote="github" />
+
+    <!-- Viper4Android Redesign -->
+    <project path="packages/apps/ViPER4AndroidFX" name="TogoFire/packages_apps_ViPER4AndroidFX" revision="v4a" remote="github" />
+
+    <!-- ROM SOURCE CHANGES:
+    Source commit dependencies:
+    vendor/aosp: https://github.com/PixelExperience/vendor_aosp/commit/97c0cd376fc1f160664d29e3a8e5f4559a9a53b0 // ALREADY IMPLEMENTED IN EVOX SOURCE
+    vendor/aosp: https://github.com/PixelExperience/vendor_aosp/commit/6a23cfd3ad4ac795eb4fe0559dc6ac2b5b6ce505 // ALREADY IMPLEMENTED IN EVOX SOURCE
+    QTI Perf / CLO BoostFramework commits dependencies:
+    Topic: https://gerrit.pixelexperience.org/q/topic:CLO-BoostFramework // ALREADY IMPLEMENTED IN EVOX SOURCE
+    -->
+</manifest>
