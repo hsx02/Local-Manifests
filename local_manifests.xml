@@ -8,5 +8,6 @@
 <project path="hardware/xiaomi" remote="github" name="PixelExperience/hardware_xiaomi" revision="thirteen"/>
 <project path="vendor/xiaomi/spes" remote="github" name="ProjectBlaze-Devices/vendor_xiaomi_spes" revision="13"/>
 <project path="kernel/xiaomi/spes" remote="github" name="sayann70/kernel_xiaomi_spes_header" revision="12.1"/>
+<project path="hardware/google/pixel" remote="github" name="hsx02/rise_hardware_google_pixel" revision="thirteen"/>
 
 </manifest>
