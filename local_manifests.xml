@@ -4,9 +4,11 @@
  <remote  name="github"
            fetch="https://github.com" />
            	
-    <project path="device/xiaomi/spes" remote="github" name="Evolution-X-Devices/device_xiaomi_spes" revision="tiramisu"/>
+    <project path="device/xiaomi/spes" remote="github" name="hsx02/temp" revision="tiramisu"/>
     <project path="kernel/xiaomi/sm6225" remote="github" name="etylix/kernel_xiaomi_spes" revision="main"/>
     <project path="vendor/xiaomi/spes" remote="github" name="etylix/vendor-spes" revision="udc"/>
+
+ <project path="hardware/qcom-caf/bengal/display" remote="github" name="Evolution-X/hardware_qcom-caf_bengal_display" revision="udc"/>
 </manifest>
    
     
