@@ -4,7 +4,7 @@
  <remote  name="github"
            fetch="https://github.com" />
            	
-    <project path="device/xiaomi/spes" remote="github" name="etylix/device_spes" revision="udc"/>
+    <project path="device/xiaomi/spes" remote="github" name="Evolution-X-Devices/device_xiaomi_spes" revision="tiramisu"/>
     <project path="kernel/xiaomi/sm6225" remote="github" name="etylix/kernel_xiaomi_spes" revision="main"/>
     <project path="vendor/xiaomi/spes" remote="github" name="etylix/vendor-spes" revision="udc"/>
 </manifest>
