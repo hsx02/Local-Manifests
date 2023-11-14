@@ -9,6 +9,15 @@
     <project path="vendor/xiaomi/spes" remote="github" name="etylix/vendor-spes" revision="udc"/>
 
  <project path="hardware/qcom-caf/bengal/display" remote="github" name="Evolution-X/hardware_qcom-caf_bengal_display" revision="udc"/>
+ <project path="hardware/qcom-caf/bengal/audio" remote="github" name="PixelExperience/hardware_qcom-caf_bengal_audio" revision="thirteen"/>
+<project path="hardware/qcom-caf/bengal/media" remote="github" name="PixelExperience/hardware_qcom-caf_bengal_media" revision="thirteen"/>
+<project path="hardware/qcom-caf/bengal/gps" remote="github" name="PixelExperience/hardware_qcom-caf_bengal_gps" revision="thirteen"/>
+
+ <remove-project name="platform/hardware/google/pixel"/>
+ <project path="hardware/google/pixel" remote="github" name="hsx02/a_h_g_pxl" revision="lineage-21.0"/>
+
+ <project path="device/qcom/sepolicy_vndr-legacy-um" remote="github" name="etylix/device_qcom_sepolicy_vndr-legacy-um" revision="udc"/>
+
 </manifest>
    
     
